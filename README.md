@@ -22,4 +22,4 @@ Discord: [Link](https://discord.gg/Va9CMv59Ej)<br>
 
 ## Links
 * Git Hub: [Action_Skills_Plus](https://github.com/7DTD-JP/Action_Skills_Plus)
-* Forum: TBD <br>
+* Forum: [Action_Skills_Plus](https://community.7daystodie.com/topic/34017-action-skills-plus/)
