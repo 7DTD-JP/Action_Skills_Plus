@@ -1,0 +1,16 @@
+<config>
+	<!-- Created by 7DAYSTODIE_JP. Join Discord to report bugs, supports and suggestions.-->
+	<!-- Discord: https://discord.gg/Va9CMv59Ej -->
+	<append xpath="/blocks">
+		<block name="decoMannequinMilitaryCommandoAS">
+			<property name="Extends" value="decoMannequinMale"/>
+			<property name="Tags" value="AStraining"/>
+			<property name="CustomIcon" value="decoMannequinMilitaryCommando"/>
+			<property name="DescriptionKey" value="decoMannequinMilitaryCommandoASDesc"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Model" value="Entities/Commercial/mannequinMilitaryCommandoPrefab"/>
+			<property name="SortOrder2" value="0004"/>
+			<property name="MaxDamage" value="5000"/>
+		</block>
+	</append>
+</config>

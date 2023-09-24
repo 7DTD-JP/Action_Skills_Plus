@@ -1,0 +1,10 @@
+<config>
+	<!-- Created by 7DAYSTODIE_JP. Join Discord to report bugs, supports and suggestions.-->
+	<!-- Discord: https://discord.gg/Va9CMv59Ej -->
+	<append xpath="/recipes">
+	<!--
+		<recipe name="RandomCrateEvent" count="1" material_based="true" craft_area="forgeEvent" craft_time="1" craft_exp_gain="0" always_unlocked="true" use_ingredient_modifier="false">
+			<ingredient name="unit_pumpkin" count="40"/>
+		</recipe> -->
+	</append>
+</config>

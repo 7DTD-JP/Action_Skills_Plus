@@ -1,0 +1,1908 @@
+<config>
+	<!-- Created by 7DAYSTODIE_JP. Join Discord to report bugs, supports and suggestions.-->
+	<!-- Discord: https://discord.gg/Va9CMv59Ej -->
+	<append xpath="/buffs">
+		<!-- AS HUD -->
+		<buff name="buffShowSkillLvPoint" name_key="buffShowSkillLvPoint" description_key="" icon="ui_game_symbol_fork" icon_color="0,255,100" remove_on_death="false" hidden="true">
+			<stack_type value="replace"/>
+			<update_rate value="1"/>
+			<!-- meleeToolRepairT0TazasStoneAxe -->
+			<effect_group>
+				<requirement name="ItemHasTags" tags="meleeToolRepairT0StoneAxe"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Lv" operation="set" value="@$Skill_meleeToolRepairT0StoneAxe_Lv"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Point" operation="set" value="@$Skill_meleeToolRepairT0StoneAxe_Exp"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Next" operation="set" value="@$Skill_meleeToolRepairT0StoneAxe_NextExp"/>
+			</effect_group>
+			<!-- meleeToolRepairT0TazasStoneAxe -->
+			<effect_group>
+				<requirement name="ItemHasTags" tags="meleeToolRepairT0TazasStoneAxe"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Lv" operation="set" value="@$Skill_meleeToolRepairT0TazasStoneAxe_Lv"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Point" operation="set" value="@$Skill_meleeToolRepairT0TazasStoneAxe_Exp"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Next" operation="set" value="@$Skill_meleeToolRepairT0TazasStoneAxe_NextExp"/>
+			</effect_group>
+			<!-- meleeToolAxeT1IronFireaxe -->
+			<effect_group>
+				<requirement name="ItemHasTags" tags="meleeToolAxeT1IronFireaxe"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Lv" operation="set" value="@$Skill_meleeToolAxeT1IronFireaxe_Lv"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Point" operation="set" value="@$Skill_meleeToolAxeT1IronFireaxe_Exp"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Next" operation="set" value="@$Skill_meleeToolAxeT1IronFireaxe_NextExp"/>
+			</effect_group>
+			<!-- meleeToolAxeT2SteelAxe -->
+			<effect_group>
+				<requirement name="ItemHasTags" tags="meleeToolAxeT2SteelAxe"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Lv" operation="set" value="@$Skill_meleeToolAxeT2SteelAxe_Lv"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Point" operation="set" value="@$Skill_meleeToolAxeT2SteelAxe_Exp"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Next" operation="set" value="@$Skill_meleeToolAxeT2SteelAxe_NextExp"/>
+			</effect_group>
+			<!-- meleeToolPickT1IronPickaxe -->
+			<effect_group>
+				<requirement name="ItemHasTags" tags="meleeToolPickT1IronPickaxe"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Lv" operation="set" value="@$Skill_meleeToolPickT1IronPickaxe_Lv"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Point" operation="set" value="@$Skill_meleeToolPickT1IronPickaxe_Exp"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Next" operation="set" value="@$Skill_meleeToolPickT1IronPickaxe_NextExp"/>
+			</effect_group>
+			<!-- meleeToolPickT2SteelPickaxe -->
+			<effect_group>
+				<requirement name="ItemHasTags" tags="meleeToolPickT2SteelPickaxe"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Lv" operation="set" value="@$Skill_meleeToolPickT2SteelPickaxe_Lv"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Point" operation="set" value="@$Skill_meleeToolPickT2SteelPickaxe_Exp"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Next" operation="set" value="@$Skill_meleeToolPickT2SteelPickaxe_NextExp"/>
+			</effect_group>
+			<!-- meleeToolShovelT0StoneShovel -->
+			<effect_group>
+				<requirement name="ItemHasTags" tags="meleeToolShovelT0StoneShovel"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Lv" operation="set" value="@$Skill_meleeToolShovelT0StoneShovel_Lv"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Point" operation="set" value="@$Skill_meleeToolShovelT0StoneShovel_Exp"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Next" operation="set" value="@$Skill_meleeToolShovelT0StoneShovel_NextExp"/>
+			</effect_group>
+			<!-- meleeToolShovelT1IronShovel -->
+			<effect_group>
+				<requirement name="ItemHasTags" tags="meleeToolShovelT1IronShovel"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Lv" operation="set" value="@$Skill_meleeToolShovelT1IronShovel_Lv"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Point" operation="set" value="@$Skill_meleeToolShovelT1IronShovel_Exp"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Next" operation="set" value="@$Skill_meleeToolShovelT1IronShovel_NextExp"/>
+			</effect_group>
+			<!-- meleeToolShovelT2SteelShovel -->
+			<effect_group>
+				<requirement name="ItemHasTags" tags="meleeToolShovelT2SteelShovel"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Lv" operation="set" value="@$Skill_meleeToolShovelT2SteelShovel_Lv"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Point" operation="set" value="@$Skill_meleeToolShovelT2SteelShovel_Exp"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Next" operation="set" value="@$Skill_meleeToolShovelT2SteelShovel_NextExp"/>
+			</effect_group>
+			<!-- meleeToolAxeT3Chainsaw -->
+			<!-- <effect_group>
+				<requirement name="ItemHasTags" tags="meleeToolAxeT3Chainsaw"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Lv" operation="set" value="@$Skill_meleeToolAxeT3Chainsaw_Lv"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Point" operation="set" value="@$Skill_meleeToolAxeT3Chainsaw_Exp"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Next" operation="set" value="@$Skill_meleeToolAxeT3Chainsaw_NextExp"/>
+			</effect_group> -->
+			<!-- meleeToolPickT3Auger -->
+			<!-- <effect_group>
+				<requirement name="ItemHasTags" tags="meleeToolPickT3Auger"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Lv" operation="set" value="@$Skill_meleeToolPickT3Auger_Lv"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Point" operation="set" value="@$Skill_meleeToolPickT3Auger_Exp"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Next" operation="set" value="@$Skill_meleeToolPickT3Auger_NextExp"/>
+			</effect_group> -->
+			<!-- meleeToolRepairT1ClawHammer -->
+			<effect_group>
+				<requirement name="ItemHasTags" tags="meleeToolRepairT1ClawHammer"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Lv" operation="set" value="@$Skill_meleeToolRepairT1ClawHammer_Lv"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Point" operation="set" value="@$Skill_meleeToolRepairT1ClawHammer_Exp"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Next" operation="set" value="@$Skill_meleeToolRepairT1ClawHammer_NextExp"/>
+			</effect_group>
+			<!-- meleeToolRepairT3Nailgun -->
+			<effect_group>
+				<requirement name="ItemHasTags" tags="meleeToolRepairT3Nailgun"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Lv" operation="set" value="@$Skill_meleeToolRepairT3Nailgun_Lv"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Point" operation="set" value="@$Skill_meleeToolRepairT3Nailgun_Exp"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Next" operation="set" value="@$Skill_meleeToolRepairT3Nailgun_NextExp"/>
+			</effect_group>
+			<!-- meleeToolSalvageT1Wrench -->
+			<effect_group>
+				<requirement name="ItemHasTags" tags="meleeToolSalvageT1Wrench"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Lv" operation="set" value="@$Skill_meleeToolSalvageT1Wrench_Lv"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Point" operation="set" value="@$Skill_meleeToolSalvageT1Wrench_Exp"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Next" operation="set" value="@$Skill_meleeToolSalvageT1Wrench_NextExp"/>
+			</effect_group>
+			<!-- meleeToolSalvageT2Ratchet -->
+			<effect_group>
+				<requirement name="ItemHasTags" tags="meleeToolSalvageT2Ratchet"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Lv" operation="set" value="@$Skill_meleeToolSalvageT2Ratchet_Lv"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Point" operation="set" value="@$Skill_meleeToolSalvageT2Ratchet_Exp"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Next" operation="set" value="@$Skill_meleeToolSalvageT2Ratchet_NextExp"/>
+			</effect_group>
+			<!-- meleeToolSalvageT3ImpactDriver -->
+			<effect_group>
+				<requirement name="ItemHasTags" tags="meleeToolSalvageT3ImpactDriver"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Lv" operation="set" value="@$Skill_meleeToolSalvageT3ImpactDriver_Lv"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Point" operation="set" value="@$Skill_meleeToolSalvageT3ImpactDriver_Exp"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Next" operation="set" value="@$Skill_meleeToolSalvageT3ImpactDriver_NextExp"/>
+			</effect_group>
+			<!-- meleeWpnBladeT0BoneKnife -->
+			<effect_group>
+				<requirement name="ItemHasTags" tags="meleeWpnBladeT0BoneKnife"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Lv" operation="set" value="@$Skill_meleeWpnBladeT0BoneKnife_Lv"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Point" operation="set" value="@$Skill_meleeWpnBladeT0BoneKnife_Exp"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Next" operation="set" value="@$Skill_meleeWpnBladeT0BoneKnife_NextExp"/>
+			</effect_group>
+			<!-- meleeWpnBladeT1HuntingKnife -->
+			<effect_group>
+				<requirement name="ItemHasTags" tags="meleeWpnBladeT1HuntingKnife"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Lv" operation="set" value="@$Skill_meleeWpnBladeT1HuntingKnife_Lv"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Point" operation="set" value="@$Skill_meleeWpnBladeT1HuntingKnife_Exp"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Next" operation="set" value="@$Skill_meleeWpnBladeT1HuntingKnife_NextExp"/>
+			</effect_group>
+			<!-- meleeWpnBladeT1CandyKnife -->
+			<effect_group>
+				<requirement name="ItemHasTags" tags="meleeWpnBladeT1CandyKnife"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Lv" operation="set" value="@$Skill_meleeWpnBladeT1CandyKnife_Lv"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Point" operation="set" value="@$Skill_meleeWpnBladeT1CandyKnife_Exp"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Next" operation="set" value="@$Skill_meleeWpnBladeT1CandyKnife_NextExp"/>
+			</effect_group>
+			<!-- meleeWpnBladeT3Machete -->
+			<effect_group>
+				<requirement name="ItemHasTags" tags="meleeWpnBladeT3Machete"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Lv" operation="set" value="@$Skill_meleeWpnBladeT3Machete_Lv"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Point" operation="set" value="@$Skill_meleeWpnBladeT3Machete_Exp"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Next" operation="set" value="@$Skill_meleeWpnBladeT3Machete_NextExp"/>
+			</effect_group>
+			<!-- meleeWpnClubT0WoodenClub -->
+			<effect_group>
+				<requirement name="ItemHasTags" tags="meleeWpnClubT0WoodenClub"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Lv" operation="set" value="@$Skill_meleeWpnClubT0WoodenClub_Lv"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Point" operation="set" value="@$Skill_meleeWpnClubT0WoodenClub_Exp"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Next" operation="set" value="@$Skill_meleeWpnClubT0WoodenClub_NextExp"/>
+			</effect_group>
+			<!-- meleeWpnClubT1BaseballBat -->
+			<effect_group>
+				<requirement name="ItemHasTags" tags="meleeWpnClubT1BaseballBat"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Lv" operation="set" value="@$Skill_meleeWpnClubT1BaseballBat_Lv"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Point" operation="set" value="@$Skill_meleeWpnClubT1BaseballBat_Exp"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Next" operation="set" value="@$Skill_meleeWpnClubT1BaseballBat_NextExp"/>
+			</effect_group>
+			<!-- meleeWpnClubT1CandyClub -->
+			<effect_group>
+				<requirement name="ItemHasTags" tags="meleeWpnClubT1CandyClub"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Lv" operation="set" value="@$Skill_meleeWpnClubT1CandyClub_Lv"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Point" operation="set" value="@$Skill_meleeWpnClubT1CandyClub_Exp"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Next" operation="set" value="@$Skill_meleeWpnClubT1CandyClub_NextExp"/>
+			</effect_group>
+			<!-- meleeWpnClubT3SteelClub -->
+			<effect_group>
+				<requirement name="ItemHasTags" tags="meleeWpnClubT3SteelClub"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Lv" operation="set" value="@$Skill_meleeWpnClubT3SteelClub_Lv"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Point" operation="set" value="@$Skill_meleeWpnClubT3SteelClub_Exp"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Next" operation="set" value="@$Skill_meleeWpnClubT3SteelClub_NextExp"/>
+			</effect_group>
+			<!-- meleeWpnBatonT0PipeBaton -->
+			<effect_group>
+				<requirement name="ItemHasTags" tags="meleeWpnBatonT0PipeBaton"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Lv" operation="set" value="@$Skill_meleeWpnBatonT0PipeBaton_Lv"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Point" operation="set" value="@$Skill_meleeWpnBatonT0PipeBaton_Exp"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Next" operation="set" value="@$Skill_meleeWpnBatonT0PipeBaton_NextExp"/>
+			</effect_group>
+			<!-- meleeWpnBatonT2StunBaton -->
+			<effect_group>
+				<requirement name="ItemHasTags" tags="meleeWpnBatonT2StunBaton"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Lv" operation="set" value="@$Skill_meleeWpnBatonT2StunBaton_Lv"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Point" operation="set" value="@$Skill_meleeWpnBatonT2StunBaton_Exp"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Next" operation="set" value="@$Skill_meleeWpnBatonT2StunBaton_NextExp"/>
+			</effect_group>
+			<!-- meleeWpnBatonT3PlasmaBaton -->
+			<effect_group>
+				<requirement name="ItemHasTags" tags="meleeWpnBatonT3PlasmaBaton"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Lv" operation="set" value="@$Skill_meleeWpnBatonT3PlasmaBaton_Lv"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Point" operation="set" value="@$Skill_meleeWpnBatonT3PlasmaBaton_Exp"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Next" operation="set" value="@$Skill_meleeWpnBatonT3PlasmaBaton_NextExp"/>
+			</effect_group>
+			<!-- meleeWpnSpearT0StoneSpear -->
+			<effect_group>
+				<requirement name="ItemHasTags" tags="meleeWpnSpearT0StoneSpear"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Lv" operation="set" value="@$Skill_meleeWpnSpearT0StoneSpear_Lv"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Point" operation="set" value="@$Skill_meleeWpnSpearT0StoneSpear_Exp"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Next" operation="set" value="@$Skill_meleeWpnSpearT0StoneSpear_NextExp"/>
+			</effect_group>
+			<!-- meleeWpnSpearT1IronSpear -->
+			<effect_group>
+				<requirement name="ItemHasTags" tags="meleeWpnSpearT1IronSpear"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Lv" operation="set" value="@$Skill_meleeWpnSpearT1IronSpear_Lv"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Point" operation="set" value="@$Skill_meleeWpnSpearT1IronSpear_Exp"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Next" operation="set" value="@$Skill_meleeWpnSpearT1IronSpear_NextExp"/>
+			</effect_group>
+			<!-- meleeWpnSpearT3SteelSpear -->
+			<effect_group>
+				<requirement name="ItemHasTags" tags="meleeWpnSpearT3SteelSpear"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Lv" operation="set" value="@$Skill_meleeWpnSpearT3SteelSpear_Lv"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Point" operation="set" value="@$Skill_meleeWpnSpearT3SteelSpear_Exp"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Next" operation="set" value="@$Skill_meleeWpnSpearT3SteelSpear_NextExp"/>
+			</effect_group>
+			<!-- meleeWpnSledgeT0StoneSledgehammer -->
+			<effect_group>
+				<requirement name="ItemHasTags" tags="meleeWpnSledgeT0StoneSledgehammer"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Lv" operation="set" value="@$Skill_meleeWpnSledgeT0StoneSledgehammer_Lv"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Point" operation="set" value="@$Skill_meleeWpnSledgeT0StoneSledgehammer_Exp"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Next" operation="set" value="@$Skill_meleeWpnSledgeT0StoneSledgehammer_NextExp"/>
+			</effect_group>
+			<!-- meleeWpnSledgeT1IronSledgehammer -->
+			<effect_group>
+				<requirement name="ItemHasTags" tags="meleeWpnSledgeT1IronSledgehammer"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Lv" operation="set" value="@$Skill_meleeWpnSledgeT1IronSledgehammer_Lv"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Point" operation="set" value="@$Skill_meleeWpnSledgeT1IronSledgehammer_Exp"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Next" operation="set" value="@$Skill_meleeWpnSledgeT1IronSledgehammer_NextExp"/>
+			</effect_group>
+			<!-- meleeWpnSledgeT3SteelSledgehammer -->
+			<effect_group>
+				<requirement name="ItemHasTags" tags="meleeWpnSledgeT3SteelSledgehammer"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Lv" operation="set" value="@$Skill_meleeWpnSledgeT3SteelSledgehammer_Lv"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Point" operation="set" value="@$Skill_meleeWpnSledgeT3SteelSledgehammer_Exp"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Next" operation="set" value="@$Skill_meleeWpnSledgeT3SteelSledgehammer_NextExp"/>
+			</effect_group>
+			<!-- meleeHandPlayer -->
+			<effect_group>
+				<requirement name="ItemHasTags" tags="meleeHandPlayer"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Lv" operation="set" value="@$Skill_meleeHandPlayer_Lv"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Point" operation="set" value="@$Skill_meleeHandPlayer_Exp"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Next" operation="set" value="@$Skill_meleeHandPlayer_NextExp"/>
+			</effect_group>
+			<!-- meleeWpnKnucklesT0LeatherKnuckles -->
+			<effect_group>
+				<requirement name="ItemHasTags" tags="meleeWpnKnucklesT0LeatherKnuckles"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Lv" operation="set" value="@$Skill_meleeWpnKnucklesT0LeatherKnuckles_Lv"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Point" operation="set" value="@$Skill_meleeWpnKnucklesT0LeatherKnuckles_Exp"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Next" operation="set" value="@$Skill_meleeWpnKnucklesT0LeatherKnuckles_NextExp"/>
+			</effect_group>
+			<!-- meleeWpnKnucklesT1IronKnuckles -->
+			<effect_group>
+				<requirement name="ItemHasTags" tags="meleeWpnKnucklesT1IronKnuckles"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Lv" operation="set" value="@$Skill_meleeWpnKnucklesT1IronKnuckles_Lv"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Point" operation="set" value="@$Skill_meleeWpnKnucklesT1IronKnuckles_Exp"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Next" operation="set" value="@$Skill_meleeWpnKnucklesT1IronKnuckles_NextExp"/>
+			</effect_group>
+			<!-- meleeWpnKnucklesT3SteelKnuckles -->
+			<effect_group>
+				<requirement name="ItemHasTags" tags="meleeWpnKnucklesT3SteelKnuckles"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Lv" operation="set" value="@$Skill_meleeWpnKnucklesT3SteelKnuckles_Lv"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Point" operation="set" value="@$Skill_meleeWpnKnucklesT3SteelKnuckles_Exp"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Next" operation="set" value="@$Skill_meleeWpnKnucklesT3SteelKnuckles_NextExp"/>
+			</effect_group>
+			<!-- meleeToolFlashlight02 -->
+			<effect_group>
+				<requirement name="ItemHasTags" tags="meleeToolFlashlight02"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Lv" operation="set" value="@$Skill_meleeToolFlashlight02_Lv"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Point" operation="set" value="@$Skill_meleeToolFlashlight02_Exp"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Next" operation="set" value="@$Skill_meleeToolFlashlight02_NextExp"/>
+			</effect_group>
+			<!-- meleeToolTorch -->
+			<effect_group>
+				<requirement name="ItemHasTags" tags="meleeToolTorch"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Lv" operation="set" value="@$Skill_meleeToolTorch_Lv"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Point" operation="set" value="@$Skill_meleeToolTorch_Exp"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Next" operation="set" value="@$Skill_meleeToolTorch_NextExp"/>
+			</effect_group>
+			<!-- gunHandgunT0PipePistol -->
+			<effect_group>
+				<requirement name="ItemHasTags" tags="gunHandgunT0PipePistol"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Lv" operation="set" value="@$Skill_gunHandgunT0PipePistol_Lv"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Point" operation="set" value="@$Skill_gunHandgunT0PipePistol_Exp"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Next" operation="set" value="@$Skill_gunHandgunT0PipePistol_NextExp"/>
+			</effect_group>
+			<!-- gunHandgunT1Pistol -->
+			<effect_group>
+				<requirement name="ItemHasTags" tags="gunHandgunT1Pistol"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Lv" operation="set" value="@$Skill_gunHandgunT1Pistol_Lv"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Point" operation="set" value="@$Skill_gunHandgunT1Pistol_Exp"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Next" operation="set" value="@$Skill_gunHandgunT1Pistol_NextExp"/>
+			</effect_group>
+			<!-- gunHandgunT3SMG5 -->
+			<effect_group>
+				<requirement name="ItemHasTags" tags="gunHandgunT3SMG5"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Lv" operation="set" value="@$Skill_gunHandgunT3SMG5_Lv"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Point" operation="set" value="@$Skill_gunHandgunT3SMG5_Exp"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Next" operation="set" value="@$Skill_gunHandgunT3SMG5_NextExp"/>
+			</effect_group>
+			<!-- gunHandgunT2Magnum44 -->
+			<effect_group>
+				<requirement name="ItemHasTags" tags="gunHandgunT2Magnum44"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Lv" operation="set" value="@$Skill_gunHandgunT2Magnum44_Lv"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Point" operation="set" value="@$Skill_gunHandgunT2Magnum44_Exp"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Next" operation="set" value="@$Skill_gunHandgunT2Magnum44_NextExp"/>
+			</effect_group>
+			<!-- gunHandgunT3DesertVulture -->
+			<effect_group>
+				<requirement name="ItemHasTags" tags="gunHandgunT3DesertVulture"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Lv" operation="set" value="@$Skill_gunHandgunT3DesertVulture_Lv"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Point" operation="set" value="@$Skill_gunHandgunT3DesertVulture_Exp"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Next" operation="set" value="@$Skill_gunHandgunT3DesertVulture_NextExp"/>
+			</effect_group>
+			<!-- gunShotgunT0PipeShotgun -->
+			<effect_group>
+				<requirement name="ItemHasTags" tags="gunShotgunT0PipeShotgun"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Lv" operation="set" value="@$Skill_gunShotgunT0PipeShotgun_Lv"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Point" operation="set" value="@$Skill_gunShotgunT0PipeShotgun_Exp"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Next" operation="set" value="@$Skill_gunShotgunT0PipeShotgun_NextExp"/>
+			</effect_group>
+			<!-- gunShotgunT1DoubleBarrel -->
+			<effect_group>
+				<requirement name="ItemHasTags" tags="gunShotgunT1DoubleBarrel"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Lv" operation="set" value="@$Skill_gunShotgunT1DoubleBarrel_Lv"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Point" operation="set" value="@$Skill_gunShotgunT1DoubleBarrel_Exp"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Next" operation="set" value="@$Skill_gunShotgunT1DoubleBarrel_NextExp"/>
+			</effect_group>
+			<!-- gunShotgunT2PumpShotgun -->
+			<effect_group>
+				<requirement name="ItemHasTags" tags="gunShotgunT2PumpShotgun"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Lv" operation="set" value="@$Skill_gunShotgunT2PumpShotgun_Lv"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Point" operation="set" value="@$Skill_gunShotgunT2PumpShotgun_Exp"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Next" operation="set" value="@$Skill_gunShotgunT2PumpShotgun_NextExp"/>
+			</effect_group>
+			<!-- gunShotgunT3AutoShotgun -->
+			<effect_group>
+				<requirement name="ItemHasTags" tags="gunShotgunT3AutoShotgun"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Lv" operation="set" value="@$Skill_gunShotgunT3AutoShotgun_Lv"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Point" operation="set" value="@$Skill_gunShotgunT3AutoShotgun_Exp"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Next" operation="set" value="@$Skill_gunShotgunT3AutoShotgun_NextExp"/>
+			</effect_group>
+			<!-- gunRifleT0PipeRifle -->
+			<effect_group>
+				<requirement name="ItemHasTags" tags="gunRifleT0PipeRifle"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Lv" operation="set" value="@$Skill_gunRifleT0PipeRifle_Lv"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Point" operation="set" value="@$Skill_gunRifleT0PipeRifle_Exp"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Next" operation="set" value="@$Skill_gunRifleT0PipeRifle_NextExp"/>
+			</effect_group>
+			<!-- gunRifleT1HuntingRifle -->
+			<effect_group>
+				<requirement name="ItemHasTags" tags="gunRifleT1HuntingRifle"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Lv" operation="set" value="@$Skill_gunRifleT1HuntingRifle_Lv"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Point" operation="set" value="@$Skill_gunRifleT1HuntingRifle_Exp"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Next" operation="set" value="@$Skill_gunRifleT1HuntingRifle_NextExp"/>
+			</effect_group>
+			<!-- gunRifleT2LeverActionRifle -->
+			<effect_group>
+				<requirement name="ItemHasTags" tags="gunRifleT2LeverActionRifle"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Lv" operation="set" value="@$Skill_gunRifleT2LeverActionRifle_Lv"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Point" operation="set" value="@$Skill_gunRifleT2LeverActionRifle_Exp"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Next" operation="set" value="@$Skill_gunRifleT2LeverActionRifle_NextExp"/>
+			</effect_group>
+			<!-- gunRifleT3SniperRifle -->
+			<effect_group>
+				<requirement name="ItemHasTags" tags="gunRifleT3SniperRifle"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Lv" operation="set" value="@$Skill_gunRifleT3SniperRifle_Lv"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Point" operation="set" value="@$Skill_gunRifleT3SniperRifle_Exp"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Next" operation="set" value="@$Skill_gunRifleT3SniperRifle_NextExp"/>
+			</effect_group>
+			<!-- gunMGT0PipeMachineGun -->
+			<effect_group>
+				<requirement name="ItemHasTags" tags="gunMGT0PipeMachineGun"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Lv" operation="set" value="@$Skill_gunMGT0PipeMachineGun_Lv"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Point" operation="set" value="@$Skill_gunMGT0PipeMachineGun_Exp"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Next" operation="set" value="@$Skill_gunMGT0PipeMachineGun_NextExp"/>
+			</effect_group>
+			<!-- gunMGT1AK47 -->
+			<effect_group>
+				<requirement name="ItemHasTags" tags="gunMGT1AK47"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Lv" operation="set" value="@$Skill_gunMGT1AK47_Lv"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Point" operation="set" value="@$Skill_gunMGT1AK47_Exp"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Next" operation="set" value="@$Skill_gunMGT1AK47_NextExp"/>
+			</effect_group>
+			<!-- gunMGT2TacticalAR -->
+			<effect_group>
+				<requirement name="ItemHasTags" tags="gunMGT2TacticalAR"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Lv" operation="set" value="@$Skill_gunMGT2TacticalAR_Lv"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Point" operation="set" value="@$Skill_gunMGT2TacticalAR_Exp"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Next" operation="set" value="@$Skill_gunMGT2TacticalAR_NextExp"/>
+			</effect_group>
+			<!-- gunMGT3M60 -->
+			<effect_group>
+				<requirement name="ItemHasTags" tags="gunMGT3M60"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Lv" operation="set" value="@$Skill_gunMGT3M60_Lv"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Point" operation="set" value="@$Skill_gunMGT3M60_Exp"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Next" operation="set" value="@$Skill_gunMGT3M60_NextExp"/>
+			</effect_group>
+			<!-- gunExplosivesT3RocketLauncher -->
+			<effect_group>
+				<requirement name="ItemHasTags" tags="gunExplosivesT3RocketLauncher"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Lv" operation="set" value="@$Skill_gunExplosivesT3RocketLauncher_Lv"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Point" operation="set" value="@$Skill_gunExplosivesT3RocketLauncher_Exp"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Next" operation="set" value="@$Skill_gunExplosivesT3RocketLauncher_NextExp"/>
+			</effect_group>
+			<!-- gunBowT0PrimitiveBow -->
+			<effect_group>
+				<requirement name="ItemHasTags" tags="gunBowT0PrimitiveBow"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Lv" operation="set" value="@$Skill_gunBowT0PrimitiveBow_Lv"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Point" operation="set" value="@$Skill_gunBowT0PrimitiveBow_Exp"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Next" operation="set" value="@$Skill_gunBowT0PrimitiveBow_NextExp"/>
+			</effect_group>
+			<!-- gunBowT1WoodenBow -->
+			<effect_group>
+				<requirement name="ItemHasTags" tags="gunBowT1WoodenBow"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Lv" operation="set" value="@$Skill_gunBowT1WoodenBow_Lv"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Point" operation="set" value="@$Skill_gunBowT1WoodenBow_Exp"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Next" operation="set" value="@$Skill_gunBowT1WoodenBow_NextExp"/>
+			</effect_group>
+			<!-- gunBowT3CompoundBow -->
+			<effect_group>
+				<requirement name="ItemHasTags" tags="gunBowT3CompoundBow"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Lv" operation="set" value="@$Skill_gunBowT3CompoundBow_Lv"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Point" operation="set" value="@$Skill_gunBowT3CompoundBow_Exp"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Next" operation="set" value="@$Skill_gunBowT3CompoundBow_NextExp"/>
+			</effect_group>
+			<!-- gunBowT1IronCrossbow -->
+			<effect_group>
+				<requirement name="ItemHasTags" tags="gunBowT1IronCrossbow"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Lv" operation="set" value="@$Skill_gunBowT1IronCrossbow_Lv"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Point" operation="set" value="@$Skill_gunBowT1IronCrossbow_Exp"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Next" operation="set" value="@$Skill_gunBowT1IronCrossbow_NextExp"/>
+			</effect_group>
+			<!-- gunBowT3CompoundCrossbow -->
+			<effect_group>
+				<requirement name="ItemHasTags" tags="gunBowT3CompoundCrossbow"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Lv" operation="set" value="@$Skill_gunBowT3CompoundCrossbow_Lv"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Point" operation="set" value="@$Skill_gunBowT3CompoundCrossbow_Exp"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Next" operation="set" value="@$Skill_gunBowT3CompoundCrossbow_NextExp"/>
+			</effect_group>
+			<!-- gunBotT1JunkSledge -->
+			<effect_group>
+				<requirement name="ItemHasTags" tags="gunBotT1JunkSledge"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Lv" operation="set" value="@$Skill_gunBotT1JunkSledge_Lv"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Point" operation="set" value="@$Skill_gunBotT1JunkSledge_Exp"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Next" operation="set" value="@$Skill_gunBotT1JunkSledge_NextExp"/>
+			</effect_group>
+			<!-- gunBotT2JunkTurret -->
+			<effect_group>
+				<requirement name="ItemHasTags" tags="gunBotT2JunkTurret"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Lv" operation="set" value="@$Skill_gunBotT2JunkTurret_Lv"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Point" operation="set" value="@$Skill_gunBotT2JunkTurret_Exp"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Next" operation="set" value="@$Skill_gunBotT2JunkTurret_NextExp"/>
+			</effect_group>
+			<!-- gunBotT3JunkDrone -->
+			<effect_group>
+				<requirement name="ItemHasTags" tags="gunBotT3JunkDrone"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Lv" operation="set" value="@$Skill_gunBotT3JunkDrone_Lv"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Point" operation="set" value="@$Skill_gunBotT3JunkDrone_Exp"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Next" operation="set" value="@$Skill_gunBotT3JunkDrone_NextExp"/>
+			</effect_group>
+			<!-- No items -->
+			<effect_group>
+				<requirement name="!ItemHasTags" tags="meleeToolRepairT0StoneAxe"/>
+				<requirement name="!ItemHasTags" tags="meleeToolRepairT0TazasStoneAxe"/>
+				<requirement name="!ItemHasTags" tags="meleeToolRepairT1ClawHammer"/>
+				<requirement name="!ItemHasTags" tags="meleeToolRepairT3Nailgun"/>
+				<requirement name="!ItemHasTags" tags="meleeToolAxeT1IronFireaxe"/>
+				<requirement name="!ItemHasTags" tags="meleeToolAxeT2SteelAxe"/>
+				<requirement name="!ItemHasTags" tags="meleeToolPickT1IronPickaxe"/>
+				<requirement name="!ItemHasTags" tags="meleeToolPickT2SteelPickaxe"/>
+				<requirement name="!ItemHasTags" tags="meleeToolShovelT0StoneShovel"/>
+				<requirement name="!ItemHasTags" tags="meleeToolShovelT1IronShovel"/>
+				<requirement name="!ItemHasTags" tags="meleeToolShovelT2SteelShovel"/>
+				<requirement name="!ItemHasTags" tags="meleeToolAxeT3Chainsaw"/>
+				<requirement name="!ItemHasTags" tags="meleeToolPickT3Auger"/>
+				<requirement name="!ItemHasTags" tags="meleeToolSalvageT1Wrench"/>
+				<requirement name="!ItemHasTags" tags="meleeToolSalvageT2Ratchet"/>
+				<requirement name="!ItemHasTags" tags="meleeToolSalvageT3ImpactDriver"/>
+				<requirement name="!ItemHasTags" tags="meleeWpnBladeT0BoneKnife"/>
+				<requirement name="!ItemHasTags" tags="meleeWpnBladeT1HuntingKnife"/>
+				<requirement name="!ItemHasTags" tags="meleeWpnBladeT1CandyKnife"/>
+				<requirement name="!ItemHasTags" tags="meleeWpnBladeT3Machete"/>
+				<requirement name="!ItemHasTags" tags="meleeWpnClubT0WoodenClub"/>
+				<requirement name="!ItemHasTags" tags="meleeWpnClubT1BaseballBat"/>
+				<requirement name="!ItemHasTags" tags="meleeWpnClubT1CandyClub"/>
+				<requirement name="!ItemHasTags" tags="meleeWpnClubT3SteelClub"/>
+				<requirement name="!ItemHasTags" tags="meleeWpnBatonT0PipeBaton"/>
+				<requirement name="!ItemHasTags" tags="meleeWpnBatonT2StunBaton"/>
+				<requirement name="!ItemHasTags" tags="meleeWpnBatonT3PlasmaBaton"/>
+				<requirement name="!ItemHasTags" tags="meleeWpnSpearT0StoneSpear"/>
+				<requirement name="!ItemHasTags" tags="meleeWpnSpearT1IronSpear"/>
+				<requirement name="!ItemHasTags" tags="meleeWpnSpearT3SteelSpear"/>
+				<requirement name="!ItemHasTags" tags="meleeWpnSledgeT0StoneSledgehammer"/>
+				<requirement name="!ItemHasTags" tags="meleeWpnSledgeT1IronSledgehammer"/>
+				<requirement name="!ItemHasTags" tags="meleeWpnSledgeT3SteelSledgehammer"/>
+				<requirement name="!ItemHasTags" tags="meleeWpnKnucklesT0LeatherKnuckles"/>
+				<requirement name="!ItemHasTags" tags="meleeWpnKnucklesT1IronKnuckles"/>
+				<requirement name="!ItemHasTags" tags="meleeWpnKnucklesT3SteelKnuckles"/>
+				<requirement name="!ItemHasTags" tags="meleeToolFlashlight02"/>
+				<requirement name="!ItemHasTags" tags="meleeToolTorch"/>
+				<requirement name="!ItemHasTags" tags="meleeHandPlayer"/>
+				<requirement name="!ItemHasTags" tags="gunHandgunT0PipePistol"/>
+				<requirement name="!ItemHasTags" tags="gunHandgunT1Pistol"/>
+				<requirement name="!ItemHasTags" tags="gunHandgunT3SMG5"/>
+				<requirement name="!ItemHasTags" tags="gunHandgunT2Magnum44"/>
+				<requirement name="!ItemHasTags" tags="gunHandgunT3DesertVulture"/>
+				<requirement name="!ItemHasTags" tags="gunShotgunT0PipeShotgun"/>
+				<requirement name="!ItemHasTags" tags="gunShotgunT1DoubleBarrel"/>
+				<requirement name="!ItemHasTags" tags="gunShotgunT2PumpShotgun"/>
+				<requirement name="!ItemHasTags" tags="gunShotgunT3AutoShotgun"/>
+				<requirement name="!ItemHasTags" tags="gunRifleT0PipeRifle"/>
+				<requirement name="!ItemHasTags" tags="gunRifleT1HuntingRifle"/>
+				<requirement name="!ItemHasTags" tags="gunRifleT2LeverActionRifle"/>
+				<requirement name="!ItemHasTags" tags="gunRifleT3SniperRifle"/>
+				<requirement name="!ItemHasTags" tags="gunMGT0PipeMachineGun"/>
+				<requirement name="!ItemHasTags" tags="gunMGT1AK47"/>
+				<requirement name="!ItemHasTags" tags="gunMGT2TacticalAR"/>
+				<requirement name="!ItemHasTags" tags="gunMGT3M60"/>
+				<requirement name="!ItemHasTags" tags="gunExplosivesT3RocketLauncher"/>
+				<requirement name="!ItemHasTags" tags="gunBowT0PrimitiveBow"/>
+				<requirement name="!ItemHasTags" tags="gunBowT1WoodenBow"/>
+				<requirement name="!ItemHasTags" tags="gunBowT3CompoundBow"/>
+				<requirement name="!ItemHasTags" tags="gunBowT1IronCrossbow"/>
+				<requirement name="!ItemHasTags" tags="gunBowT3CompoundCrossbow"/>
+				<requirement name="!ItemHasTags" tags="gunBotT1JunkSledge"/>
+				<requirement name="!ItemHasTags" tags="gunBotT2JunkTurret"/>
+				<requirement name="!ItemHasTags" tags="gunBotT3JunkDrone"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Lv" operation="set" value="0"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Point" operation="set" value="0"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$Equip_Item_Skill_Next" operation="set" value="0"/>
+			</effect_group>
+		</buff>
+		<!-- meleeToolRepairT0StoneAxe -->
+		<buff name="buffmeleeToolRepairT0StoneAxe_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message=""/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeToolRepairT0StoneAxe_Exp" operation="subtract" value="@$Skill_meleeToolRepairT0StoneAxe_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeToolRepairT0StoneAxe_Lv" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeToolRepairT0StoneAxe_NextExp" operation="multiply" value="@$Skill_HarvestingTools_Mult"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+			<!-- <effect_group><passive_effect name="CraftingTier" operation="base_add" value="1" tags="meleeToolRepairT0StoneAxe">
+					<requirement name="CVarCompare" cvar="$Skill_meleeToolRepairT0StoneAxe_Lv" operation="GTE" value="100" target="self"/>
+				</passive_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group> -->
+		</buff>
+		<!-- meleeToolRepairT0TazasStoneAxe -->
+		<buff name="buffmeleeToolRepairT0TazasStoneAxe_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message=""/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeToolRepairT0TazasStoneAxe_Exp" operation="subtract" value="@$Skill_meleeToolRepairT0TazasStoneAxe_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeToolRepairT0TazasStoneAxe_Lv" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeToolRepairT0TazasStoneAxe_NextExp" operation="multiply" value="@$Skill_HarvestingTools_Mult"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+			<!-- <effect_group><passive_effect name="CraftingTier" operation="base_add" value="1" tags="meleeToolRepairT0TazasStoneAxe">
+					<requirement name="CVarCompare" cvar="$Skill_meleeToolRepairT0TazasStoneAxe_Lv" operation="GTE" value="100" target="self"/>
+				</passive_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group> -->
+		</buff>
+		
+		<!-- meleeToolAxeT1IronFireaxe -->
+		<buff name="buffmeleeToolAxeT1IronFireaxe_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message=""/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeToolAxeT1IronFireaxe_Exp" operation="subtract" value="@$Skill_meleeToolAxeT1IronFireaxe_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeToolAxeT1IronFireaxe_Lv" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeToolAxeT1IronFireaxe_NextExp" operation="multiply" value="@$Skill_HarvestingTools_Mult"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+			<!-- <effect_group><passive_effect name="CraftingTier" operation="base_add" value="1" tags="meleeToolAxeT1IronFireaxe">
+					<requirement name="CVarCompare" cvar="$Skill_meleeToolAxeT1IronFireaxe_Lv" operation="GTE" value="100" target="self"/>
+				</passive_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>-->
+		</buff>
+		<!-- meleeToolAxeT2SteelAxe -->
+		<buff name="buffmeleeToolAxeT2SteelAxe_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message=""/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeToolAxeT2SteelAxe_Exp" operation="subtract" value="@$Skill_meleeToolAxeT2SteelAxe_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeToolAxeT2SteelAxe_Lv" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeToolAxeT2SteelAxe_NextExp" operation="multiply" value="@$Skill_HarvestingTools_Mult"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+			<!-- <effect_group><passive_effect name="CraftingTier" operation="base_add" value="1" tags="meleeToolAxeT2SteelAxe">
+					<requirement name="CVarCompare" cvar="$Skill_meleeToolAxeT2SteelAxe_Lv" operation="GTE" value="100" target="self"/>
+				</passive_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>-->
+		</buff>
+		<!-- meleeToolPickT1IronPickaxe -->
+		<buff name="buffmeleeToolPickT1IronPickaxe_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message=""/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeToolPickT1IronPickaxe_Exp" operation="subtract" value="@$Skill_meleeToolPickT1IronPickaxe_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeToolPickT1IronPickaxe_Lv" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeToolPickT1IronPickaxe_NextExp" operation="multiply" value="@$Skill_HarvestingTools_Mult"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+			<!-- <effect_group><passive_effect name="CraftingTier" operation="base_add" value="1" tags="meleeToolPickT1IronPickaxe">
+					<requirement name="CVarCompare" cvar="$Skill_meleeToolPickT1IronPickaxe_Lv" operation="GTE" value="100" target="self"/>
+				</passive_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>-->
+		</buff>
+		<!-- meleeToolPickT2SteelPickaxe -->
+		<buff name="buffmeleeToolPickT2SteelPickaxe_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message=""/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeToolPickT2SteelPickaxe_Exp" operation="subtract" value="@$Skill_meleeToolPickT2SteelPickaxe_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeToolPickT2SteelPickaxe_Lv" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeToolPickT2SteelPickaxe_NextExp" operation="multiply" value="@$Skill_HarvestingTools_Mult"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+			<!-- <effect_group><passive_effect name="CraftingTier" operation="base_add" value="1" tags="meleeToolPickT2SteelPickaxe">
+					<requirement name="CVarCompare" cvar="$Skill_meleeToolPickT2SteelPickaxe_Lv" operation="GTE" value="100" target="self"/>
+				</passive_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>-->
+		</buff>
+		<!-- meleeToolShovelT0StoneShovel -->
+		<buff name="buffmeleeToolShovelT0StoneShovel_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message=""/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeToolShovelT0StoneShovel_Exp" operation="subtract" value="@$Skill_meleeToolShovelT0StoneShovel_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeToolShovelT0StoneShovel_Lv" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeToolShovelT0StoneShovel_NextExp" operation="multiply" value="@$Skill_HarvestingTools_Mult"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+			<!-- <effect_group><passive_effect name="CraftingTier" operation="base_add" value="1" tags="meleeToolShovelT0StoneShovel">
+					<requirement name="CVarCompare" cvar="$Skill_meleeToolShovelT0StoneShovel_Lv" operation="GTE" value="100" target="self"/>
+				</passive_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>-->
+		</buff>
+		<!-- meleeToolShovelT1IronShovel -->
+		<buff name="buffmeleeToolShovelT1IronShovel_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message=""/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeToolShovelT1IronShovel_Exp" operation="subtract" value="@$Skill_meleeToolShovelT1IronShovel_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeToolShovelT1IronShovel_Lv" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeToolShovelT1IronShovel_NextExp" operation="multiply" value="@$Skill_HarvestingTools_Mult"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+			<!-- <effect_group><passive_effect name="CraftingTier" operation="base_add" value="1" tags="meleeToolShovelT1IronShovel">
+					<requirement name="CVarCompare" cvar="$Skill_meleeToolShovelT1IronShovel_Lv" operation="GTE" value="100" target="self"/>
+				</passive_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>-->
+		</buff>
+		<!-- meleeToolShovelT2SteelShovel -->
+		<buff name="buffmeleeToolShovelT2SteelShovel_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message=""/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeToolShovelT2SteelShovel_Exp" operation="subtract" value="@$Skill_meleeToolShovelT2SteelShovel_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeToolShovelT2SteelShovel_Lv" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeToolShovelT2SteelShovel_NextExp" operation="multiply" value="@$Skill_HarvestingTools_Mult"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+			<!-- <effect_group><passive_effect name="CraftingTier" operation="base_add" value="1" tags="meleeToolShovelT2SteelShovel">
+					<requirement name="CVarCompare" cvar="$Skill_meleeToolShovelT2SteelShovel_Lv" operation="GTE" value="100" target="self"/>
+				</passive_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>-->
+		</buff>
+		<!-- meleeToolAxeT3Chainsaw -->
+		<!-- <buff name="buffmeleeToolAxeT3Chainsaw_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message=""/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeToolAxeT3Chainsaw_Exp" operation="subtract" value="@$Skill_meleeToolAxeT3Chainsaw_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeToolAxeT3Chainsaw_Lv" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeToolAxeT3Chainsaw_NextExp" operation="multiply" value="@$Skill_HarvestingTools_Mult"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+				<effect_group><passive_effect name="CraftingTier" operation="base_add" value="1" tags="meleeToolAxeT3Chainsaw">
+					<requirement name="CVarCompare" cvar="$Skill_meleeToolAxeT3Chainsaw_Lv" operation="GTE" value="100" target="self"/>
+				</passive_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+		</buff>-->
+		<!-- meleeToolPickT3Auger -->
+		<!-- <buff name="buffmeleeToolPickT3Auger_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message=""/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeToolPickT3Auger_Exp" operation="subtract" value="@$Skill_meleeToolPickT3Auger_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeToolPickT3Auger_Lv" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeToolPickT3Auger_NextExp" operation="multiply" value="@$Skill_HarvestingTools_Mult"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+			<effect_group><passive_effect name="CraftingTier" operation="base_add" value="1" tags="meleeToolPickT3Auger">
+					<requirement name="CVarCompare" cvar="$Skill_meleeToolPickT3Auger_Lv" operation="GTE" value="100" target="self"/>
+				</passive_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+		</buff>-->
+		<!-- meleeToolRepairT1ClawHammer -->
+		<buff name="buffmeleeToolRepairT1ClawHammer_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message=""/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeToolRepairT1ClawHammer_Exp" operation="subtract" value="@$Skill_meleeToolRepairT1ClawHammer_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeToolRepairT1ClawHammer_Lv" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeToolRepairT1ClawHammer_NextExp" operation="multiply" value="@$Skill_RepairTools_Mult"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+			<!-- <effect_group><passive_effect name="CraftingTier" operation="base_add" value="1" tags="meleeToolRepairT1ClawHammer">
+					<requirement name="CVarCompare" cvar="$Skill_meleeToolRepairT1ClawHammer_Lv" operation="GTE" value="100" target="self"/>
+				</passive_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>-->
+		</buff>
+		<!-- meleeToolRepairT3Nailgun -->
+		<buff name="buffmeleeToolRepairT3Nailgun_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message=""/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeToolRepairT3Nailgun_Exp" operation="subtract" value="@$Skill_meleeToolRepairT3Nailgun_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeToolRepairT3Nailgun_Lv" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeToolRepairT3Nailgun_NextExp" operation="multiply" value="@$Skill_RepairTools_Mult"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+			<!-- <effect_group><passive_effect name="CraftingTier" operation="base_add" value="1" tags="meleeToolRepairT3Nailgun">
+					<requirement name="CVarCompare" cvar="$Skill_meleeToolRepairT3Nailgun_Lv" operation="GTE" value="100" target="self"/>
+				</passive_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>-->
+		</buff>
+		<!-- meleeToolSalvageT1Wrench -->
+		<buff name="buffmeleeToolSalvageT1Wrench_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message=""/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeToolSalvageT1Wrench_Exp" operation="subtract" value="@$Skill_meleeToolSalvageT1Wrench_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeToolSalvageT1Wrench_Lv" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeToolSalvageT1Wrench_NextExp" operation="multiply" value="@$Skill_SalvageTools_Mult"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+			<!-- <effect_group><passive_effect name="CraftingTier" operation="base_add" value="1" tags="meleeToolSalvageT1Wrench">
+					<requirement name="CVarCompare" cvar="$Skill_meleeToolSalvageT1Wrench_Lv" operation="GTE" value="100" target="self"/>
+				</passive_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>-->
+		</buff>
+		<!-- meleeToolSalvageT2Ratchet -->
+		<buff name="buffmeleeToolSalvageT2Ratchet_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message=""/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeToolSalvageT2Ratchet_Exp" operation="subtract" value="@$Skill_meleeToolSalvageT2Ratchet_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeToolSalvageT2Ratchet_Lv" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeToolSalvageT2Ratchet_NextExp" operation="multiply" value="@$Skill_SalvageTools_Mult"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+			<!-- <effect_group><passive_effect name="CraftingTier" operation="base_add" value="1" tags="meleeToolSalvageT2Ratchet">
+					<requirement name="CVarCompare" cvar="$Skill_meleeToolSalvageT2Ratchet_Lv" operation="GTE" value="100" target="self"/>
+				</passive_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>-->
+		</buff>
+		<!-- meleeToolSalvageT3ImpactDriver -->
+		<buff name="buffmeleeToolSalvageT3ImpactDriver_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message=""/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeToolSalvageT3ImpactDriver_Exp" operation="subtract" value="@$Skill_meleeToolSalvageT3ImpactDriver_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeToolSalvageT3ImpactDriver_Lv" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeToolSalvageT3ImpactDriver_NextExp" operation="multiply" value="@$Skill_SalvageTools_Mult"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+			<!-- <effect_group><passive_effect name="CraftingTier" operation="base_add" value="1" tags="meleeToolSalvageT3ImpactDriver">
+					<requirement name="CVarCompare" cvar="$Skill_meleeToolSalvageT3ImpactDriver_Lv" operation="GTE" value="100" target="self"/>
+				</passive_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>-->
+		</buff>
+		<!-- meleeHandPlayer -->
+		<buff name="buffmeleeHandPlayer_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message=""/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeHandPlayer_Exp" operation="subtract" value="@$Skill_meleeHandPlayer_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeHandPlayer_Lv" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeHandPlayer_NextExp" operation="multiply" value="@$Skill_Knuckles_Mult"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+			<!-- <effect_group><passive_effect name="CraftingTier" operation="base_add" value="1" tags="meleeHandPlayer">
+					<requirement name="CVarCompare" cvar="$Skill_meleeHandPlayer_Lv" operation="GTE" value="100" target="self"/>
+				</passive_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>-->
+		</buff>
+		<!-- meleeWpnKnucklesT0LeatherKnuckles -->
+		<buff name="buffmeleeWpnKnucklesT0LeatherKnuckles_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message=""/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeWpnKnucklesT0LeatherKnuckles_Exp" operation="subtract" value="@$Skill_meleeWpnKnucklesT0LeatherKnuckles_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeWpnKnucklesT0LeatherKnuckles_Lv" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeWpnKnucklesT0LeatherKnuckles_NextExp" operation="multiply" value="@$Skill_Knuckles_Mult"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+			<!-- <effect_group><passive_effect name="CraftingTier" operation="base_add" value="1" tags="meleeWpnKnucklesT0LeatherKnuckles">
+					<requirement name="CVarCompare" cvar="$Skill_meleeWpnKnucklesT0LeatherKnuckles_Lv" operation="GTE" value="100" target="self"/>
+				</passive_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>-->
+		</buff>
+		<!-- meleeWpnKnucklesT1IronKnuckles -->
+		<buff name="buffmeleeWpnKnucklesT1IronKnuckles_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message=""/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeWpnKnucklesT1IronKnuckles_Exp" operation="subtract" value="@$Skill_meleeWpnKnucklesT1IronKnuckles_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeWpnKnucklesT1IronKnuckles_Lv" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeWpnKnucklesT1IronKnuckles_NextExp" operation="multiply" value="@$Skill_Knuckles_Mult"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+			<!-- <effect_group><passive_effect name="CraftingTier" operation="base_add" value="1" tags="meleeWpnKnucklesT1IronKnuckles">
+					<requirement name="CVarCompare" cvar="$Skill_meleeWpnKnucklesT1IronKnuckles_Lv" operation="GTE" value="100" target="self"/>
+				</passive_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>-->
+		</buff>
+		<!-- meleeWpnKnucklesT3SteelKnuckles -->
+		<buff name="buffmeleeWpnKnucklesT3SteelKnuckles_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message=""/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeWpnKnucklesT3SteelKnuckles_Exp" operation="subtract" value="@$Skill_meleeWpnKnucklesT3SteelKnuckles_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeWpnKnucklesT3SteelKnuckles_Lv" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeWpnKnucklesT3SteelKnuckles_NextExp" operation="multiply" value="@$Skill_Knuckles_Mult"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+			<!-- <effect_group><passive_effect name="CraftingTier" operation="base_add" value="1" tags="meleeWpnKnucklesT3SteelKnuckles">
+					<requirement name="CVarCompare" cvar="$Skill_meleeWpnKnucklesT3SteelKnuckles_Lv" operation="GTE" value="100" target="self"/>
+				</passive_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>-->
+		</buff>
+		<!-- meleeWpnBladeT0BoneKnife -->
+		<buff name="buffmeleeWpnBladeT0BoneKnife_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message=""/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeWpnBladeT0BoneKnife_Exp" operation="subtract" value="@$Skill_meleeWpnBladeT0BoneKnife_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeWpnBladeT0BoneKnife_Lv" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeWpnBladeT0BoneKnife_NextExp" operation="multiply" value="@$Skill_Blades_Mult"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+			<!-- <effect_group><passive_effect name="CraftingTier" operation="base_add" value="1" tags="meleeWpnBladeT0BoneKnife">
+					<requirement name="CVarCompare" cvar="$Skill_meleeWpnBladeT0BoneKnife_Lv" operation="GTE" value="100" target="self"/>
+				</passive_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>-->
+		</buff>
+		<!-- meleeWpnBladeT1HuntingKnife -->
+		<buff name="buffmeleeWpnBladeT1HuntingKnife_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message=""/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeWpnBladeT1HuntingKnife_Exp" operation="subtract" value="@$Skill_meleeWpnBladeT1HuntingKnife_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeWpnBladeT1HuntingKnife_Lv" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeWpnBladeT1HuntingKnife_NextExp" operation="multiply" value="@$Skill_Blades_Mult"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+			<!-- <effect_group><passive_effect name="CraftingTier" operation="base_add" value="1" tags="meleeWpnBladeT1HuntingKnife">
+					<requirement name="CVarCompare" cvar="$Skill_meleeWpnBladeT1HuntingKnife_Lv" operation="GTE" value="100" target="self"/>
+				</passive_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>-->
+		</buff>
+		<!-- meleeWpnBladeT1CandyKnife -->
+		<buff name="buffmeleeWpnBladeT1CandyKnife_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message=""/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeWpnBladeT1CandyKnife_Exp" operation="subtract" value="@$Skill_meleeWpnBladeT1CandyKnife_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeWpnBladeT1CandyKnife_Lv" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeWpnBladeT1CandyKnife_NextExp" operation="multiply" value="@$Skill_Blades_Mult"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+			<!-- <effect_group><passive_effect name="CraftingTier" operation="base_add" value="1" tags="meleeWpnBladeT1CandyKnife">
+					<requirement name="CVarCompare" cvar="$Skill_meleeWpnBladeT1CandyKnife_Lv" operation="GTE" value="100" target="self"/>
+				</passive_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>-->
+		</buff>
+		<!-- meleeWpnBladeT3Machete -->
+		<buff name="buffmeleeWpnBladeT3Machete_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message=""/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeWpnBladeT3Machete_Exp" operation="subtract" value="@$Skill_meleeWpnBladeT3Machete_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeWpnBladeT3Machete_Lv" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeWpnBladeT3Machete_NextExp" operation="multiply" value="@$Skill_Blades_Mult"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+			<!-- <effect_group><passive_effect name="CraftingTier" operation="base_add" value="1" tags="meleeWpnBladeT3Machete">
+					<requirement name="CVarCompare" cvar="$Skill_meleeWpnBladeT3Machete_Lv" operation="GTE" value="100" target="self"/>
+				</passive_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>-->
+		</buff>
+		<!-- meleeWpnClubT0WoodenClub -->
+		<buff name="buffmeleeWpnClubT0WoodenClub_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message=""/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeWpnClubT0WoodenClub_Exp" operation="subtract" value="@$Skill_meleeWpnClubT0WoodenClub_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeWpnClubT0WoodenClub_Lv" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeWpnClubT0WoodenClub_NextExp" operation="multiply" value="@$Skill_Clubs_Mult"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+			<!-- <effect_group><passive_effect name="CraftingTier" operation="base_add" value="1" tags="meleeWpnClubT0WoodenClub">
+					<requirement name="CVarCompare" cvar="$Skill_meleeWpnClubT0WoodenClub_Lv" operation="GTE" value="100" target="self"/>
+				</passive_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>-->
+		</buff>
+		<!-- meleeWpnClubT1BaseballBat -->
+		<buff name="buffmeleeWpnClubT1BaseballBat_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message=""/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeWpnClubT1BaseballBat_Exp" operation="subtract" value="@$Skill_meleeWpnClubT1BaseballBat_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeWpnClubT1BaseballBat_Lv" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeWpnClubT1BaseballBat_NextExp" operation="multiply" value="@$Skill_Clubs_Mult"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+			<!-- <effect_group><passive_effect name="CraftingTier" operation="base_add" value="1" tags="meleeWpnClubT1BaseballBat">
+					<requirement name="CVarCompare" cvar="$Skill_meleeWpnClubT1BaseballBat_Lv" operation="GTE" value="100" target="self"/>
+				</passive_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>-->
+		</buff>
+		<!-- meleeWpnClubT1CandyClub -->
+		<buff name="buffmeleeWpnClubT1CandyClub_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message=""/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeWpnClubT1CandyClub_Exp" operation="subtract" value="@$Skill_meleeWpnClubT1CandyClub_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeWpnClubT1CandyClub_Lv" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeWpnClubT1CandyClub_NextExp" operation="multiply" value="@$Skill_Clubs_Mult"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+			<!-- <effect_group><passive_effect name="CraftingTier" operation="base_add" value="1" tags="meleeWpnClubT1CandyClub">
+					<requirement name="CVarCompare" cvar="$Skill_meleeWpnClubT1CandyClub_Lv" operation="GTE" value="100" target="self"/>
+				</passive_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>-->
+		</buff>
+		<!-- meleeWpnClubT3SteelClub -->
+		<buff name="buffmeleeWpnClubT3SteelClub_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message=""/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeWpnClubT3SteelClub_Exp" operation="subtract" value="@$Skill_meleeWpnClubT3SteelClub_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeWpnClubT3SteelClub_Lv" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeWpnClubT3SteelClub_NextExp" operation="multiply" value="@$Skill_Clubs_Mult"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+			<!-- <effect_group><passive_effect name="CraftingTier" operation="base_add" value="1" tags="meleeWpnClubT3SteelClub">
+					<requirement name="CVarCompare" cvar="$Skill_meleeWpnClubT3SteelClub_Lv" operation="GTE" value="100" target="self"/>
+				</passive_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>-->
+		</buff>
+		<!-- meleeToolFlashlight02 -->
+		<buff name="buffmeleeToolFlashlight02_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message=""/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeToolFlashlight02_Exp" operation="subtract" value="@$Skill_meleeToolFlashlight02_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeToolFlashlight02_Lv" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeToolFlashlight02_NextExp" operation="multiply" value="@$Skill_Clubs_Mult"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+			<!-- <effect_group><passive_effect name="CraftingTier" operation="base_add" value="1" tags="meleeToolFlashlight02">
+					<requirement name="CVarCompare" cvar="$Skill_meleeToolFlashlight02_Lv" operation="GTE" value="100" target="self"/>
+				</passive_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>-->
+		</buff>
+		<!-- meleeToolTorch -->
+		<buff name="buffmeleeToolTorch_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message=""/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeToolTorch_Exp" operation="subtract" value="@$Skill_meleeToolTorch_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeToolTorch_Lv" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_Clubs_NextExp" operation="multiply" value="@$Skill_HarvestingTools_Mult"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+			<!-- <effect_group><passive_effect name="CraftingTier" operation="base_add" value="1" tags="meleeToolTorch">
+					<requirement name="CVarCompare" cvar="$Skill_meleeToolTorch_Lv" operation="GTE" value="100" target="self"/>
+				</passive_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>-->
+		</buff>
+		<!-- meleeWpnSledgeT0StoneSledgehammer -->
+		<buff name="buffmeleeWpnSledgeT0StoneSledgehammer_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message=""/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeWpnSledgeT0StoneSledgehammer_Exp" operation="subtract" value="@$Skill_meleeWpnSledgeT0StoneSledgehammer_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeWpnSledgeT0StoneSledgehammer_Lv" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeWpnSledgeT0StoneSledgehammer_NextExp" operation="multiply" value="@$Skill_Sledgehammers_Mult"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+			<!-- <effect_group><passive_effect name="CraftingTier" operation="base_add" value="1" tags="meleeWpnSledgeT0StoneSledgehammer">
+					<requirement name="CVarCompare" cvar="$Skill_meleeWpnSledgeT0StoneSledgehammer_Lv" operation="GTE" value="100" target="self"/>
+				</passive_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>-->
+		</buff>
+		<!-- meleeWpnSledgeT1IronSledgehammer -->
+		<buff name="buffmeleeWpnSledgeT1IronSledgehammer_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message=""/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeWpnSledgeT1IronSledgehammer_Exp" operation="subtract" value="@$Skill_meleeWpnSledgeT1IronSledgehammer_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeWpnSledgeT1IronSledgehammer_Lv" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeWpnSledgeT1IronSledgehammer_NextExp" operation="multiply" value="@$Skill_Sledgehammers_Mult"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+			<!-- <effect_group><passive_effect name="CraftingTier" operation="base_add" value="1" tags="meleeWpnSledgeT1IronSledgehammer">
+					<requirement name="CVarCompare" cvar="$Skill_meleeWpnSledgeT1IronSledgehammer_Lv" operation="GTE" value="100" target="self"/>
+				</passive_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>-->
+		</buff>
+		<!-- meleeWpnSledgeT3SteelSledgehammer -->
+		<buff name="buffmeleeWpnSledgeT3SteelSledgehammer_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message=""/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeWpnSledgeT3SteelSledgehammer_Exp" operation="subtract" value="@$Skill_meleeWpnSledgeT3SteelSledgehammer_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeWpnSledgeT3SteelSledgehammer_Lv" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeWpnSledgeT3SteelSledgehammer_NextExp" operation="multiply" value="@$Skill_Sledgehammers_Mult"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+			<!-- <effect_group><passive_effect name="CraftingTier" operation="base_add" value="1" tags="meleeWpnSledgeT3SteelSledgehammer">
+					<requirement name="CVarCompare" cvar="$Skill_meleeWpnSledgeT3SteelSledgehammer_Lv" operation="GTE" value="100" target="self"/>
+				</passive_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>-->
+		</buff>
+		<!-- meleeWpnSpearT0StoneSpear -->
+		<buff name="buffmeleeWpnSpearT0StoneSpear_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message=""/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeWpnSpearT0StoneSpear_Exp" operation="subtract" value="@$Skill_meleeWpnSpearT0StoneSpear_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeWpnSpearT0StoneSpear_Lv" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeWpnSpearT0StoneSpear_NextExp" operation="multiply" value="@$Skill_Spears_Mult"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+			<!-- <effect_group><passive_effect name="CraftingTier" operation="base_add" value="1" tags="meleeWpnSpearT0StoneSpear">
+					<requirement name="CVarCompare" cvar="$Skill_meleeWpnSpearT0StoneSpear_Lv" operation="GTE" value="100" target="self"/>
+				</passive_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>-->
+		</buff>
+		<!-- meleeWpnSpearT1IronSpear -->
+		<buff name="buffmeleeWpnSpearT1IronSpear_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message=""/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeWpnSpearT1IronSpear_Exp" operation="subtract" value="@$Skill_meleeWpnSpearT1IronSpear_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeWpnSpearT1IronSpear_Lv" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeWpnSpearT1IronSpear_NextExp" operation="multiply" value="@$Skill_Spears_Mult"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+			<!-- <effect_group><passive_effect name="CraftingTier" operation="base_add" value="1" tags="meleeWpnSpearT1IronSpear">
+					<requirement name="CVarCompare" cvar="$Skill_meleeWpnSpearT1IronSpear_Lv" operation="GTE" value="100" target="self"/>
+				</passive_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>-->
+		</buff>
+		<!-- meleeWpnSpearT3SteelSpear -->
+		<buff name="buffmeleeWpnSpearT3SteelSpear_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message=""/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeWpnSpearT3SteelSpear_Exp" operation="subtract" value="@$Skill_meleeWpnSpearT3SteelSpear_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeWpnSpearT3SteelSpear_Lv" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeWpnSpearT3SteelSpear_NextExp" operation="multiply" value="@$Skill_Spears_Mult"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+			<!-- <effect_group><passive_effect name="CraftingTier" operation="base_add" value="1" tags="meleeWpnSpearT3SteelSpear">
+					<requirement name="CVarCompare" cvar="$Skill_meleeWpnSpearT3SteelSpear_Lv" operation="GTE" value="100" target="self"/>
+				</passive_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>-->
+		</buff>
+		<!-- gunHandgunT0PipePistol -->
+		<buff name="buffgunHandgunT0PipePistol_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message=""/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunHandgunT0PipePistol_Exp" operation="subtract" value="@$Skill_gunHandgunT0PipePistol_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunHandgunT0PipePistol_Lv" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunHandgunT0PipePistol_NextExp" operation="multiply" value="@$Skill_Handguns_Mult"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+			<!-- <effect_group><passive_effect name="CraftingTier" operation="base_add" value="1" tags="gunHandgunT0PipePistol">
+					<requirement name="CVarCompare" cvar="$Skill_gunHandgunT0PipePistol_Lv" operation="GTE" value="100" target="self"/>
+				</passive_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>-->
+		</buff>
+		<!-- gunHandgunT1Pistol -->
+		<buff name="buffgunHandgunT1Pistol_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message=""/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunHandgunT1Pistol_Exp" operation="subtract" value="@$Skill_gunHandgunT1Pistol_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunHandgunT1Pistol_Lv" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunHandgunT1Pistol_NextExp" operation="multiply" value="@$Skill_Handguns_Mult"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+			<!-- <effect_group><passive_effect name="CraftingTier" operation="base_add" value="1" tags="gunHandgunT1Pistol">
+					<requirement name="CVarCompare" cvar="$Skill_gunHandgunT1Pistol_Lv" operation="GTE" value="100" target="self"/>
+				</passive_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>-->
+		</buff>
+		<!-- gunHandgunT3SMG5 -->
+		<buff name="buffgunHandgunT3SMG5_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message=""/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunHandgunT3SMG5_Exp" operation="subtract" value="@$Skill_gunHandgunT3SMG5_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunHandgunT3SMG5_Lv" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunHandgunT3SMG5_NextExp" operation="multiply" value="@$Skill_Handguns_Mult"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+			<!-- <effect_group><passive_effect name="CraftingTier" operation="base_add" value="1" tags="gunHandgunT3SMG5">
+					<requirement name="CVarCompare" cvar="$Skill_gunHandgunT3SMG5_Lv" operation="GTE" value="100" target="self"/>
+				</passive_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>-->
+		</buff>
+		<!-- gunHandgunT2Magnum44 -->
+		<buff name="buffgunHandgunT2Magnum44_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message=""/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunHandgunT2Magnum44_Exp" operation="subtract" value="@$Skill_gunHandgunT2Magnum44_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunHandgunT2Magnum44_Lv" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunHandgunT2Magnum44_NextExp" operation="multiply" value="@$Skill_Handguns_Mult"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+			<!-- <effect_group><passive_effect name="CraftingTier" operation="base_add" value="1" tags="gunHandgunT2Magnum44">
+					<requirement name="CVarCompare" cvar="$Skill_gunHandgunT2Magnum44_Lv" operation="GTE" value="100" target="self"/>
+				</passive_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>-->
+		</buff>
+		<!-- gunHandgunT3DesertVulture -->
+		<buff name="buffgunHandgunT3DesertVulture_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message=""/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunHandgunT3DesertVulture_Exp" operation="subtract" value="@$Skill_gunHandgunT3DesertVulture_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunHandgunT3DesertVulture_Lv" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunHandgunT3DesertVulture_NextExp" operation="multiply" value="@$Skill_Handguns_Mult"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+			<!-- <effect_group><passive_effect name="CraftingTier" operation="base_add" value="1" tags="gunHandgunT3DesertVulture">
+					<requirement name="CVarCompare" cvar="$Skill_gunHandgunT3DesertVulture_Lv" operation="GTE" value="100" target="self"/>
+				</passive_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>-->
+		</buff>
+		<!-- gunShotgunT0PipeShotgun -->
+		<buff name="buffgunShotgunT0PipeShotgun_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message=""/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunShotgunT0PipeShotgun_Exp" operation="subtract" value="@$Skill_gunShotgunT0PipeShotgun_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunShotgunT0PipeShotgun_Lv" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunShotgunT0PipeShotgun_NextExp" operation="multiply" value="@$Skill_Shotguns_Mult"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+			<!-- <effect_group><passive_effect name="CraftingTier" operation="base_add" value="1" tags="gunShotgunT0PipeShotgun">
+					<requirement name="CVarCompare" cvar="$Skill_gunShotgunT0PipeShotgun_Lv" operation="GTE" value="100" target="self"/>
+				</passive_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>-->
+		</buff>
+		<!-- gunShotgunT1DoubleBarrel -->
+		<buff name="buffgunShotgunT1DoubleBarrel_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message=""/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunShotgunT1DoubleBarrel_Exp" operation="subtract" value="@$Skill_gunShotgunT1DoubleBarrel_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunShotgunT1DoubleBarrel_Lv" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunShotgunT1DoubleBarrel_NextExp" operation="multiply" value="@$Skill_Shotguns_Mult"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+			<!-- <effect_group><passive_effect name="CraftingTier" operation="base_add" value="1" tags="gunShotgunT1DoubleBarrel">
+					<requirement name="CVarCompare" cvar="$Skill_gunShotgunT1DoubleBarrel_Lv" operation="GTE" value="100" target="self"/>
+				</passive_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>-->
+		</buff>
+		<!-- gunShotgunT2PumpShotgun -->
+		<buff name="buffgunShotgunT2PumpShotgun_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message=""/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunShotgunT2PumpShotgun_Exp" operation="subtract" value="@$Skill_gunShotgunT2PumpShotgun_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunShotgunT2PumpShotgun_Lv" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunShotgunT2PumpShotgun_NextExp" operation="multiply" value="@$Skill_Shotguns_Mult"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+			<!-- <effect_group><passive_effect name="CraftingTier" operation="base_add" value="1" tags="gunShotgunT2PumpShotgun">
+					<requirement name="CVarCompare" cvar="$Skill_gunShotgunT2PumpShotgun_Lv" operation="GTE" value="100" target="self"/>
+				</passive_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>-->
+		</buff>
+		<!-- gunShotgunT3AutoShotgun -->
+		<buff name="buffgunShotgunT3AutoShotgun_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message=""/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunShotgunT3AutoShotgun_Exp" operation="subtract" value="@$Skill_gunShotgunT3AutoShotgun_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunShotgunT3AutoShotgun_Lv" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunShotgunT3AutoShotgun_NextExp" operation="multiply" value="@$Skill_Shotguns_Mult"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+			<!-- <effect_group><passive_effect name="CraftingTier" operation="base_add" value="1" tags="gunShotgunT3AutoShotgun">
+					<requirement name="CVarCompare" cvar="$Skill_gunShotgunT3AutoShotgun_Lv" operation="GTE" value="100" target="self"/>
+				</passive_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>-->
+		</buff>
+		<!-- gunRifleT0PipeRifle -->
+		<buff name="buffgunRifleT0PipeRifle_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message=""/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunRifleT0PipeRifle_Exp" operation="subtract" value="@$Skill_gunRifleT0PipeRifle_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunRifleT0PipeRifle_Lv" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunRifleT0PipeRifle_NextExp" operation="multiply" value="@$Skill_Rifles_Mult"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+			<!-- <effect_group><passive_effect name="CraftingTier" operation="base_add" value="1" tags="gunRifleT0PipeRifle">
+					<requirement name="CVarCompare" cvar="$Skill_gunRifleT0PipeRifle_Lv" operation="GTE" value="100" target="self"/>
+				</passive_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>-->
+		</buff>
+		<!-- gunRifleT1HuntingRifle -->
+		<buff name="buffgunRifleT1HuntingRifle_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message=""/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunRifleT1HuntingRifle_Exp" operation="subtract" value="@$Skill_gunRifleT1HuntingRifle_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunRifleT1HuntingRifle_Lv" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunRifleT1HuntingRifle_NextExp" operation="multiply" value="@$Skill_Rifles_Mult"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+			<!-- <effect_group><passive_effect name="CraftingTier" operation="base_add" value="1" tags="gunRifleT1HuntingRifle">
+					<requirement name="CVarCompare" cvar="$Skill_gunRifleT1HuntingRifle_Lv" operation="GTE" value="100" target="self"/>
+				</passive_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>-->
+		</buff>
+		<!-- gunRifleT2LeverActionRifle -->
+		<buff name="buffgunRifleT2LeverActionRifle_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message=""/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunRifleT2LeverActionRifle_Exp" operation="subtract" value="@$Skill_gunRifleT2LeverActionRifle_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunRifleT2LeverActionRifle_Lv" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunRifleT2LeverActionRifle_NextExp" operation="multiply" value="@$Skill_Rifles_Mult"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+			<!-- <effect_group><passive_effect name="CraftingTier" operation="base_add" value="1" tags="gunRifleT2LeverActionRifle">
+					<requirement name="CVarCompare" cvar="$Skill_gunRifleT2LeverActionRifle_Lv" operation="GTE" value="100" target="self"/>
+				</passive_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>-->
+		</buff>
+		<!-- gunRifleT3SniperRifle -->
+		<buff name="buffgunRifleT3SniperRifle_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message=""/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunRifleT3SniperRifle_Exp" operation="subtract" value="@$Skill_gunRifleT3SniperRifle_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunRifleT3SniperRifle_Lv" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunRifleT3SniperRifle_NextExp" operation="multiply" value="@$Skill_Rifles_Mult"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+			<!-- <effect_group><passive_effect name="CraftingTier" operation="base_add" value="1" tags="gunRifleT3SniperRifle">
+					<requirement name="CVarCompare" cvar="$Skill_gunRifleT3SniperRifle_Lv" operation="GTE" value="100" target="self"/>
+				</passive_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>-->
+		</buff>
+		<!-- gunMGT0PipeMachineGun -->
+		<buff name="buffgunMGT0PipeMachineGun_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message=""/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunMGT0PipeMachineGun_Exp" operation="subtract" value="@$Skill_gunMGT0PipeMachineGun_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunMGT0PipeMachineGun_Lv" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunMGT0PipeMachineGun_NextExp" operation="multiply" value="@$Skill_MachineGuns_Mult"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+			<!-- <effect_group><passive_effect name="CraftingTier" operation="base_add" value="1" tags="gunMGT0PipeMachineGun">
+					<requirement name="CVarCompare" cvar="$Skill_gunMGT0PipeMachineGun_Lv" operation="GTE" value="100" target="self"/>
+				</passive_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>-->
+		</buff>
+		<!-- gunMGT1AK47 -->
+		<buff name="buffgunMGT1AK47_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message=""/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunMGT1AK47_Exp" operation="subtract" value="@$Skill_gunMGT1AK47_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunMGT1AK47_Lv" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunMGT1AK47_NextExp" operation="multiply" value="@$Skill_MachineGuns_Mult"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+			<!-- <effect_group><passive_effect name="CraftingTier" operation="base_add" value="1" tags="gunMGT1AK47">
+					<requirement name="CVarCompare" cvar="$Skill_gunMGT1AK47_Lv" operation="GTE" value="100" target="self"/>
+				</passive_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>-->
+		</buff>
+		<!-- gunMGT2TacticalAR -->
+		<buff name="buffgunMGT2TacticalAR_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message=""/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunMGT2TacticalAR_Exp" operation="subtract" value="@$Skill_gunMGT2TacticalAR_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunMGT2TacticalAR_Lv" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunMGT2TacticalAR_NextExp" operation="multiply" value="@$Skill_MachineGuns_Mult"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+			<!-- <effect_group><passive_effect name="CraftingTier" operation="base_add" value="1" tags="gunMGT2TacticalAR">
+					<requirement name="CVarCompare" cvar="$Skill_gunMGT2TacticalAR_Lv" operation="GTE" value="100" target="self"/>
+				</passive_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>-->
+		</buff>
+		<!-- gunMGT3M60 -->
+		<buff name="buffgunMGT3M60_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message=""/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunMGT3M60_Exp" operation="subtract" value="@$Skill_gunMGT3M60_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunMGT3M60_Lv" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunMGT3M60_NextExp" operation="multiply" value="@$Skill_MachineGuns_Mult"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+			<!-- <effect_group><passive_effect name="CraftingTier" operation="base_add" value="1" tags="gunMGT3M60">
+					<requirement name="CVarCompare" cvar="$Skill_gunMGT3M60_Lv" operation="GTE" value="100" target="self"/>
+				</passive_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>-->
+		</buff>
+		<!-- gunExplosivesT3RocketLauncher -->
+		<buff name="buffgunExplosivesT3RocketLauncher_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message=""/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunExplosivesT3RocketLauncher_Exp" operation="subtract" value="@$Skill_gunExplosivesT3RocketLauncher_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunExplosivesT3RocketLauncher_Lv" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunExplosivesT3RocketLauncher_NextExp" operation="multiply" value="@$Skill_Explosives_Mult"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+			<!-- <effect_group><passive_effect name="CraftingTier" operation="base_add" value="1" tags="gunExplosivesT3RocketLauncher">
+					<requirement name="CVarCompare" cvar="$Skill_gunExplosivesT3RocketLauncher_Lv" operation="GTE" value="100" target="self"/>
+				</passive_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>-->
+		</buff>
+		<!-- gunBowT0PrimitiveBow -->
+		<buff name="buffgunBowT0PrimitiveBow_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message=""/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunBowT0PrimitiveBow_Exp" operation="subtract" value="@$Skill_gunBowT0PrimitiveBow_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunBowT0PrimitiveBow_Lv" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunBowT0PrimitiveBow_NextExp" operation="multiply" value="@$Skill_Bows_Mult"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+			<!-- <effect_group><passive_effect name="CraftingTier" operation="base_add" value="1" tags="gunBowT0PrimitiveBow">
+					<requirement name="CVarCompare" cvar="$Skill_gunBowT0PrimitiveBow_Lv" operation="GTE" value="100" target="self"/>
+				</passive_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>-->
+		</buff>
+		<!-- gunBowT1WoodenBow -->
+		<buff name="buffgunBowT1WoodenBow_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message=""/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunBowT1WoodenBow_Exp" operation="subtract" value="@$Skill_gunBowT1WoodenBow_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunBowT1WoodenBow_Lv" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunBowT1WoodenBow_NextExp" operation="multiply" value="@$Skill_Bows_Mult"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+			<!-- <effect_group><passive_effect name="CraftingTier" operation="base_add" value="1" tags="gunBowT1WoodenBow">
+					<requirement name="CVarCompare" cvar="$Skill_gunBowT1WoodenBow_Lv" operation="GTE" value="100" target="self"/>
+				</passive_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>-->
+		</buff>
+		<!-- gunBowT3CompoundBow -->
+		<buff name="buffgunBowT3CompoundBow_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message=""/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunBowT3CompoundBow_Exp" operation="subtract" value="@$Skill_gunBowT3CompoundBow_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunBowT3CompoundBow_Lv" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunBowT3CompoundBow_NextExp" operation="multiply" value="@$Skill_Bows_Mult"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+			<!-- <effect_group><passive_effect name="CraftingTier" operation="base_add" value="1" tags="gunBowT3CompoundBow">
+					<requirement name="CVarCompare" cvar="$Skill_gunBowT3CompoundBow_Lv" operation="GTE" value="100" target="self"/>
+				</passive_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>-->
+		</buff>
+		<!-- gunBowT1IronCrossbow -->
+		<buff name="buffgunBowT1IronCrossbow_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message=""/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunBowT1IronCrossbow_Exp" operation="subtract" value="@$Skill_gunBowT1IronCrossbow_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunBowT1IronCrossbow_Lv" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunBowT1IronCrossbow_NextExp" operation="multiply" value="@$Skill_Bows_Mult"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+			<!-- <effect_group><passive_effect name="CraftingTier" operation="base_add" value="1" tags="gunBowT1IronCrossbow">
+					<requirement name="CVarCompare" cvar="$Skill_gunBowT1IronCrossbow_Lv" operation="GTE" value="100" target="self"/>
+				</passive_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>-->
+		</buff>
+		<!-- gunBowT3CompoundCrossbow -->
+		<buff name="buffgunBowT3CompoundCrossbow_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message=""/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunBowT3CompoundCrossbow_Exp" operation="subtract" value="@$Skill_gunBowT3CompoundCrossbow_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunBowT3CompoundCrossbow_Lv" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunBowT3CompoundCrossbow_NextExp" operation="multiply" value="@$Skill_Bows_Mult"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+			<!-- <effect_group><passive_effect name="CraftingTier" operation="base_add" value="1" tags="gunBowT3CompoundCrossbow">
+					<requirement name="CVarCompare" cvar="$Skill_gunBowT3CompoundCrossbow_Lv" operation="GTE" value="100" target="self"/>
+				</passive_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>-->
+		</buff>
+		<!-- meleeWpnBatonT0PipeBaton -->
+		<buff name="buffmeleeWpnBatonT0PipeBaton_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message=""/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeWpnBatonT0PipeBaton_Exp" operation="subtract" value="@$Skill_meleeWpnBatonT0PipeBaton_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeWpnBatonT0PipeBaton_Lv" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeWpnBatonT0PipeBaton_NextExp" operation="multiply" value="@$Skill_Robotics_Mult"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+			<!-- <effect_group><passive_effect name="CraftingTier" operation="base_add" value="1" tags="meleeWpnBatonT0PipeBaton">
+					<requirement name="CVarCompare" cvar="$Skill_meleeWpnBatonT0PipeBaton_Lv" operation="GTE" value="100" target="self"/>
+				</passive_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>-->
+		</buff>
+		<!-- meleeWpnBatonT2StunBaton -->
+		<buff name="buffmeleeWpnBatonT2StunBaton_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message=""/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeWpnBatonT2StunBaton_Exp" operation="subtract" value="@$Skill_meleeWpnBatonT2StunBaton_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeWpnBatonT2StunBaton_Lv" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeWpnBatonT2StunBaton_NextExp" operation="multiply" value="@$Skill_Robotics_Mult"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+			<!-- <effect_group><passive_effect name="CraftingTier" operation="base_add" value="1" tags="meleeWpnBatonT2StunBaton">
+					<requirement name="CVarCompare" cvar="$Skill_meleeWpnBatonT2StunBaton_Lv" operation="GTE" value="100" target="self"/>
+				</passive_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>-->
+		</buff>
+		<!-- meleeWpnBatonT3PlasmaBaton -->
+		<buff name="buffmeleeWpnBatonT3PlasmaBaton_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message=""/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeWpnBatonT3PlasmaBaton_Exp" operation="subtract" value="@$Skill_meleeWpnBatonT3PlasmaBaton_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeWpnBatonT3PlasmaBaton_Lv" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_meleeWpnBatonT3PlasmaBaton_NextExp" operation="multiply" value="@$Skill_Robotics_Mult"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+			<!-- <effect_group><passive_effect name="CraftingTier" operation="base_add" value="1" tags="meleeWpnBatonT3PlasmaBaton">
+					<requirement name="CVarCompare" cvar="$Skill_meleeWpnBatonT3PlasmaBaton_Lv" operation="GTE" value="100" target="self"/>
+				</passive_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>-->
+		</buff>
+		<!-- gunBotT1JunkSledge -->
+		<buff name="buffgunBotT1JunkSledge_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message=""/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunBotT1JunkSledge_Exp" operation="subtract" value="@$Skill_gunBotT1JunkSledge_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunBotT1JunkSledge_Lv" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunBotT1JunkSledge_NextExp" operation="multiply" value="@$Skill_Robotics_Mult"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+			<!-- <effect_group><passive_effect name="CraftingTier" operation="base_add" value="1" tags="gunBotT1JunkSledge">
+					<requirement name="CVarCompare" cvar="$Skill_gunBotT1JunkSledge_Lv" operation="GTE" value="100" target="self"/>
+				</passive_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>-->
+		</buff>
+		<!-- gunBotT2JunkTurret -->
+		<buff name="buffgunBotT2JunkTurret_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message=""/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunBotT2JunkTurret_Exp" operation="subtract" value="@$Skill_gunBotT2JunkTurret_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunBotT2JunkTurret_Lv" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunBotT2JunkTurret_NextExp" operation="multiply" value="@$Skill_Robotics_Mult"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+			<!-- <effect_group><passive_effect name="CraftingTier" operation="base_add" value="1" tags="gunBotT2JunkTurret">
+					<requirement name="CVarCompare" cvar="$Skill_gunBotT2JunkTurret_Lv" operation="GTE" value="100" target="self"/>
+				</passive_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>-->
+		</buff>
+		<!-- gunBotT3JunkDrone -->
+		<buff name="buffgunBotT3JunkDrone_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message=""/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunBotT3JunkDrone_Exp" operation="subtract" value="@$Skill_gunBotT3JunkDrone_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunBotT3JunkDrone_Lv" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_gunBotT3JunkDrone_NextExp" operation="multiply" value="@$Skill_Robotics_Mult"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+			<!-- <effect_group><passive_effect name="CraftingTier" operation="base_add" value="1" tags="gunBotT3JunkDrone">
+					<requirement name="CVarCompare" cvar="$Skill_gunBotT3JunkDrone_Lv" operation="GTE" value="100" target="self"/>
+				</passive_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>-->
+		</buff>
+		<!-- craftingHarvestingTools -->
+		<buff name="buffASHarvestingTools_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="Action Skill HarvestingTools Level Increased!"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_AS_HarvestingTools_Exp" operation="subtract" value="@$Skill_AS_HarvestingTools_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_AS_HarvestingTools_NextExp" operation="multiply" value="@$Skill_HarvestingTools_Mult"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddProgressionLevel" progression_name="perkASHarvestingTools" level="1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+		</buff>
+		<!-- craftingRepairTools -->
+		<buff name="buffASRepairTools_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="Action Skill RepairTools Level Increased!"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_AS_RepairTools_Exp" operation="subtract" value="@$Skill_AS_RepairTools_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_AS_RepairTools_NextExp" operation="multiply" value="@$Skill_RepairTools_Mult"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddProgressionLevel" progression_name="perkASRepairTools" level="1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+		</buff>
+		<!-- craftingSalvageTools -->
+		<buff name="buffASSalvageTools_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="Action Skill SalvageTools Level Increased!"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_AS_SalvageTools_Exp" operation="subtract" value="@$Skill_AS_SalvageTools_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_AS_SalvageTools_NextExp" operation="multiply" value="@$Skill_SalvageTools_Mult"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddProgressionLevel" progression_name="perkASSalvageTools" level="1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+		</buff>
+		<!-- craftingKnuckles -->
+		<buff name="buffASKnuckles_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="Action Skill Knuckles Level Increased!"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_AS_Knuckles_Exp" operation="subtract" value="@$Skill_AS_Knuckles_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_AS_Knuckles_NextExp" operation="multiply" value="@$Skill_Knuckles_Mult"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddProgressionLevel" progression_name="perkASKnuckles" level="1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+		</buff>
+		<!-- craftingBlades -->
+		<buff name="buffASBlades_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="Action Skill Blades Level Increased!"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_AS_Blades_Exp" operation="subtract" value="@$Skill_AS_Blades_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_AS_Blades_NextExp" operation="multiply" value="@$Skill_Blades_Mult"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddProgressionLevel" progression_name="perkASBlades" level="1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+		</buff>
+		<!-- craftingClubs -->
+		<buff name="buffASClubs_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="Action Skill Clubs Level Increased!"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_AS_Clubs_Exp" operation="subtract" value="@$Skill_AS_Clubs_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_AS_Clubs_NextExp" operation="multiply" value="@$Skill_Clubs_Mult"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddProgressionLevel" progression_name="perkASClubs" level="1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+		</buff>
+		<!-- craftingSledgehammers -->
+		<buff name="buffASSledgehammers_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="Action Skill Sledgehammers Level Increased!"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_AS_Sledgehammers_Exp" operation="subtract" value="@$Skill_AS_Sledgehammers_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_AS_Sledgehammers_NextExp" operation="multiply" value="@$Skill_Sledgehammers_Mult"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddProgressionLevel" progression_name="perkASSledgehammers" level="1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+		</buff>
+		<!-- craftingBows -->
+		<buff name="buffASBows_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="Action Skill Bows Level Increased!"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_AS_Bows_Exp" operation="subtract" value="@$Skill_AS_Bows_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_AS_Bows_NextExp" operation="multiply" value="@$Skill_Bows_Mult"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddProgressionLevel" progression_name="perkASBows" level="1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+		</buff>
+		<!-- craftingSpears -->
+		<buff name="buffASSpears_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="Action Skill Spears Level Increased!"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_AS_Spears_Exp" operation="subtract" value="@$Skill_AS_Spears_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_AS_Spears_NextExp" operation="multiply" value="@$Skill_Spears_Mult"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddProgressionLevel" progression_name="perkASSpears" level="1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+		</buff>
+		<!-- craftingHandguns -->
+		<buff name="buffASHandguns_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="Action Skill Handguns Level Increased!"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_AS_Handguns_Exp" operation="subtract" value="@$Skill_AS_Handguns_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_AS_Handguns_NextExp" operation="multiply" value="@$Skill_Handguns_Mult"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddProgressionLevel" progression_name="perkASHandguns" level="1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+		</buff>
+		<!-- craftingShotguns -->
+		<buff name="buffASShotguns_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="Action Skill Shotguns Level Increased!"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_AS_Shotguns_Exp" operation="subtract" value="@$Skill_AS_Shotguns_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_AS_Shotguns_NextExp" operation="multiply" value="@$Skill_Shotguns_Mult"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddProgressionLevel" progression_name="perkASShotguns" level="1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+		</buff>
+		<!-- craftingRifles -->
+		<buff name="buffASRifles_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="Action Skill Rifles Level Increased!"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_AS_Rifles_Exp" operation="subtract" value="@$Skill_AS_Rifles_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_AS_Rifles_NextExp" operation="multiply" value="@$Skill_Rifles_Mult"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddProgressionLevel" progression_name="perkASRifles" level="1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+		</buff>
+		<!-- craftingMachineGuns -->
+		<buff name="buffASMachineGuns_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="Action Skill MachineGuns Level Increased!"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_AS_MachineGuns_Exp" operation="subtract" value="@$Skill_AS_MachineGuns_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_AS_MachineGuns_NextExp" operation="multiply" value="@$Skill_MachineGuns_Mult"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddProgressionLevel" progression_name="perkASMachineGuns" level="1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+		</buff>
+		<!-- craftingExplosives -->
+		<buff name="buffASExplosives_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="Action Skill Explosives Level Increased!"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_AS_Explosives_Exp" operation="subtract" value="@$Skill_AS_Explosives_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_AS_Explosives_NextExp" operation="multiply" value="@$Skill_Explosives_Mult"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddProgressionLevel" progression_name="perkASExplosives" level="1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+		</buff>
+		<!-- craftingRobotics -->
+		<buff name="buffASRobotics_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="Action Skill Robotics Level Increased!"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_AS_Robotics_Exp" operation="subtract" value="@$Skill_AS_Robotics_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_AS_Robotics_NextExp" operation="multiply" value="@$Skill_Robotics_Mult"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddProgressionLevel" progression_name="perkASRobotics" level="1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+		</buff>
+		<!-- craftingHarvestingTools -->
+		<buff name="buffCSHarvestingTools_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="Crafting HarvestingTools Level Increased!"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_CS_HarvestingTools_Exp" operation="subtract" value="@$Skill_CS_HarvestingTools_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_CS_HarvestingTools_NextExp" operation="multiply" value="@$Skill_HarvestingTools_Mult"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddProgressionLevel" progression_name="craftingHarvestingTools" level="1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+		</buff>
+		<!-- craftingRepairTools -->
+		<buff name="buffCSRepairTools_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="Crafting RepairTools Level Increased!"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_CS_RepairTools_Exp" operation="subtract" value="@$Skill_CS_RepairTools_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_CS_RepairTools_NextExp" operation="multiply" value="@$Skill_RepairTools_Mult"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddProgressionLevel" progression_name="craftingRepairTools" level="1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+		</buff>
+		<!-- craftingSalvageTools -->
+		<buff name="buffCSSalvageTools_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="Crafting SalvageTools Level Increased!"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_CS_SalvageTools_Exp" operation="subtract" value="@$Skill_CS_SalvageTools_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_CS_SalvageTools_NextExp" operation="multiply" value="@$Skill_SalvageTools_Mult"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddProgressionLevel" progression_name="craftingSalvageTools" level="1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+		</buff>
+		<!-- craftingKnuckles -->
+		<buff name="buffCSKnuckles_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="Crafting Knuckles Level Increased!"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_CS_Knuckles_Exp" operation="subtract" value="@$Skill_CS_Knuckles_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_CS_Knuckles_NextExp" operation="multiply" value="@$Skill_Knuckles_Mult"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddProgressionLevel" progression_name="craftingKnuckles" level="1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+		</buff>
+		<!-- craftingBlades -->
+		<buff name="buffCSBlades_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="Crafting Blades Level Increased!"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_CS_Blades_Exp" operation="subtract" value="@$Skill_CS_Blades_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_CS_Blades_NextExp" operation="multiply" value="@$Skill_Blades_Mult"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddProgressionLevel" progression_name="craftingBlades" level="1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+		</buff>
+		<!-- craftingClubs -->
+		<buff name="buffCSClubs_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="Crafting Clubs Level Increased!"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_CS_Clubs_Exp" operation="subtract" value="@$Skill_CS_Clubs_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_CS_Clubs_NextExp" operation="multiply" value="@$Skill_Clubs_Mult"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddProgressionLevel" progression_name="craftingClubs" level="1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+		</buff>
+		<!-- craftingSledgehammers -->
+		<buff name="buffCSSledgehammers_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="Crafting Sledgehammers Level Increased!"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_CS_Sledgehammers_Exp" operation="subtract" value="@$Skill_CS_Sledgehammers_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_CS_Sledgehammers_NextExp" operation="multiply" value="@$Skill_Sledgehammers_Mult"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddProgressionLevel" progression_name="craftingSledgehammers" level="1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+		</buff>
+		<!-- craftingBows -->
+		<buff name="buffCSBows_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="Crafting Bows Level Increased!"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_CS_Bows_Exp" operation="subtract" value="@$Skill_CS_Bows_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_CS_Bows_NextExp" operation="multiply" value="@$Skill_Bows_Mult"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddProgressionLevel" progression_name="craftingBows" level="1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+		</buff>
+		<!-- craftingSpears -->
+		<buff name="buffCSSpears_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="Crafting Spears Level Increased!"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_CS_Spears_Exp" operation="subtract" value="@$Skill_CS_Spears_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_CS_Spears_NextExp" operation="multiply" value="@$Skill_Spears_Mult"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddProgressionLevel" progression_name="craftingSpears" level="1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+		</buff>
+		<!-- craftingHandguns -->
+		<buff name="buffCSHandguns_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="Crafting Handguns Level Increased!"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_CS_Handguns_Exp" operation="subtract" value="@$Skill_CS_Handguns_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_CS_Handguns_NextExp" operation="multiply" value="@$Skill_Handguns_Mult"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddProgressionLevel" progression_name="craftingHandguns" level="1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+		</buff>
+		<!-- craftingShotguns -->
+		<buff name="buffCSShotguns_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="Crafting Shotguns Level Increased!"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_CS_Shotguns_Exp" operation="subtract" value="@$Skill_CS_Shotguns_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_CS_Shotguns_NextExp" operation="multiply" value="@$Skill_Shotguns_Mult"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddProgressionLevel" progression_name="craftingShotguns" level="1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+		</buff>
+		<!-- craftingRifles -->
+		<buff name="buffCSRifles_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="Crafting Rifles Level Increased!"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_CS_Rifles_Exp" operation="subtract" value="@$Skill_CS_Rifles_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_CS_Rifles_NextExp" operation="multiply" value="@$Skill_Rifles_Mult"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddProgressionLevel" progression_name="craftingRifles" level="1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+		</buff>
+		<!-- craftingMachineGuns -->
+		<buff name="buffCSMachineGuns_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="Crafting MachineGuns Level Increased!"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_CS_MachineGuns_Exp" operation="subtract" value="@$Skill_CS_MachineGuns_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_CS_MachineGuns_NextExp" operation="multiply" value="@$Skill_MachineGuns_Mult"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddProgressionLevel" progression_name="craftingMachineGuns" level="1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+		</buff>
+		<!-- craftingExplosives -->
+		<buff name="buffCSExplosives_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="Crafting Explosives Level Increased!"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_CS_Explosives_Exp" operation="subtract" value="@$Skill_CS_Explosives_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_CS_Explosives_NextExp" operation="multiply" value="@$Skill_Explosives_Mult"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddProgressionLevel" progression_name="craftingExplosives" level="1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+		</buff>
+		<!-- craftingRobotics -->
+		<buff name="buffCSRobotics_LvUp" name_key="buffToolMsgName" description_key="buffToolMsgDesc" icon="ui_game_symbol_skull">
+			<duration value="0.1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="Crafting Robotics Level Increased!"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_CS_Robotics_Exp" operation="subtract" value="@$Skill_CS_Robotics_NextExp"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$Skill_CS_Robotics_NextExp" operation="multiply" value="@$Skill_Robotics_Mult"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddProgressionLevel" progression_name="craftingRobotics" level="1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ShowToolbeltMessage" message=""/>
+			</effect_group>
+		</buff>
+	</append>
+</config>

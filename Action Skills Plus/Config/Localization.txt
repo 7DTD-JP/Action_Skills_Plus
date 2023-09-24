@@ -1,0 +1,66 @@
+Key,Mods,File,English
+decoMannequinMilitaryCommandoAS,Action skill Plus,blocks,Punching bag
+decoMannequinMilitaryCommandoASDesc,Action skill Plus,blocks,Use Punching bag to more effectively increase your proficiency.
+attgeneral,Action skill Plus,progressions,[DECEA3]Action Skill[-]
+attGeneralDesc,Action skill Plus,progressions,Use the target event item to raise your proficiency level. You can craft more powerful event items according to your proficiency level.
+attGeneralName,Action skill Plus,progressions,[DECEA3]Action Skill[-]
+perkASBladesDesc,Action skill Plus,progressions,Compatible Item\n・Bone Knife (Lv.[DECEA3]{cvar($Skill_meleeWpnBladeT0BoneKnife_Lv:0)}[-])・Hunting Knife (Lv.[DECEA3]{cvar($Skill_meleeWpnBladeT1HuntingKnife_Lv:0)}[-])\n・Candy Knife (Lv.[DECEA3]{cvar($Skill_meleeWpnBladeT1CandyKnife_Lv:0)}[-])・Machete (Lv.[DECEA3]{cvar($Skill_meleeWpnBladeT3Machete_Lv:0)}[-])
+perkASBladesLvDesc,Action skill Plus,progressions,Action Skill Lv.
+perkASBladesLvDescLong,Action skill Plus,progressions,Entity damege, Stamina loss: [00FF00]UP[-]
+perkASBladesName,Action skill Plus,progressions,Blades
+perkASBowsDesc,Action skill Plus,progressions,Compatible Item\n・Primitive Bow (Lv.[DECEA3]{cvar($Skill_gunBowT0PrimitiveBow_Lv:0)}[-])・Wooden Bow (Lv.[DECEA3]{cvar($Skill_gunBowT1WoodenBow_Lv:0)}[-])・Compound Bow (Lv.[DECEA3]{cvar($Skill_gunBowT3CompoundBow_Lv:0)}[-])\n・Iron Crossbow (Lv.[DECEA3]{cvar($Skill_gunBowT1IronCrossbow_Lv:0)}[-])・Compound Crossbow (Lv.[DECEA3]{cvar($Skill_gunBowT3CompoundCrossbow_Lv:0)}[-])
+perkASBowsLvDesc,Action skill Plus,progressions,Action Skill Lv.
+perkASBowsLvDescLong,Action skill Plus,progressions,Entity damege, Stamina loss and more: [00FF00]UP[-]
+perkASBowsName,Action skill Plus,progressions,Bows
+perkASClubsDesc,Action skill Plus,progressions,Compatible Item\n・Wooden Club (Lv.[DECEA3]{cvar($Skill_meleeWpnClubT0WoodenClub_Lv:0)}[-])・Baseball Bat (Lv.[DECEA3]{cvar($Skill_meleeWpnClubT1BaseballBat_Lv:0)}[-])・Candy Club (Lv.[DECEA3]{cvar($Skill_meleeWpnClubT1CandyClub_Lv:0)}[-])\n・Steel Club (Lv.[DECEA3]{cvar($Skill_meleeWpnClubT3SteelClub_Lv:0)}[-])・Flashlight (Lv.[DECEA3]{cvar($Skill_meleeToolFlashlight02_Lv:0)}[-])・Torch (Lv.[DECEA3]{cvar($Skill_meleeToolTorch_Lv:0)}[-])
+perkASClubsLvDesc,Action skill Plus,progressions,Action Skill Lv.
+perkASClubsLvDescLong,Action skill Plus,progressions,Entity damege, Stamina loss: [00FF00]UP[-]
+perkASClubsName,Action skill Plus,progressions,Clubs
+perkASExplosivesDesc,Action skill Plus,progressions,Compatible Item\n・Rocket Launcher (Lv.[DECEA3]{cvar($Skill_gunExplosivesT3RocketLauncher_Lv:0)}[-])
+perkASExplosivesLvDesc,Action skill Plus,progressions,Action Skill Lv.
+perkASExplosivesLvDescLong,Action skill Plus,progressions,Entity damege, Stamina loss and more: [00FF00]UP[-]
+perkASExplosivesName,Action skill Plus,progressions,Explosives
+perkASHandgunsDesc,Action skill Plus,progressions,Compatible Item\n・Pipe Pistol (Lv.[DECEA3]{cvar($Skill_gunHandgunT0PipePistol_Lv:0)}[-])・Pistol (Lv.[DECEA3]{cvar($Skill_gunHandgunT1Pistol_Lv:0)}[-])・SMG5 (Lv.[DECEA3]{cvar($Skill_gunHandgunT3SMG5_Lv:0)}[-])\n・Magnum44 (Lv.[DECEA3]{cvar($Skill_gunHandgunT2Magnum44_Lv:0)}[-])・Desert Vulture (Lv.[DECEA3]{cvar($Skill_gunHandgunT3DesertVulture_Lv:0)}[-])
+perkASHandgunsLvDesc,Action skill Plus,progressions,Action Skill Lv.
+perkASHandgunsLvDescLong,Action skill Plus,progressions,Entity damege, Stamina loss and more: [00FF00]UP[-]
+perkASHandgunsName,Action skill Plus,progressions,Handguns
+perkASHarvestingToolsDesc,Action skill Plus,progressions,Compatible Item\n・Stone Axe (Lv.[DECEA3]{cvar($Skill_meleeToolRepairT0StoneAxe_Lv:0)}[-])・Tazas Stone Axe (Lv.[DECEA3]{cvar($Skill_meleeToolRepairT0TazasStoneAxe_Lv:0)}[-])・Iron Fireaxe (Lv.[DECEA3]{cvar($Skill_meleeToolAxeT1IronFireaxe_Lv:0)}[-])・Steel Axe (Lv.[DECEA3]{cvar($Skill_meleeToolAxeT2SteelAxe_Lv:0)}[-])\n・Iron Pickaxe (Lv.[DECEA3]{cvar($Skill_meleeToolPickT1IronPickaxe_Lv:0)}[-])・Steel Pickaxe (Lv.[DECEA3]{cvar($Skill_meleeToolPickT2SteelPickaxe_Lv:0)}[-])\n・Stone Shovel (Lv.[DECEA3]{cvar($Skill_meleeToolShovelT0StoneShovel_Lv:0)}[-])・Iron Shovel (Lv.[DECEA3]{cvar($Skill_meleeToolShovelT1IronShovel_Lv:0)}[-])・Steel Shovel (Lv.[DECEA3]{cvar($Skill_meleeToolShovelT2SteelShovel_Lv:0)}[-])\n・Chainsaw (Lv.[FF0000]NA[-])・Auger (Lv.[FF0000]NA[-])
+perkASHarvestingToolsLvDesc,Action skill Plus,progressions,Action Skill Lv.
+perkASHarvestingToolsLvDescLong,Action skill Plus,progressions,Block damege, Harvest count, Stamina loss: [00FF00]UP[-]
+perkASHarvestingToolsName,Action skill Plus,progressions,Harvesting Tools
+perkASKnucklesDesc,Action skill Plus,progressions,Compatible Item\n・Hands (Lv.[DECEA3]{cvar($Skill_meleeHandPlayer_Lv:0)}[-])・Leather Knuckles (Lv.[DECEA3]{cvar($Skill_meleeWpnKnucklesT0LeatherKnuckles_Lv:0)}[-])\n・Iron Knuckles (Lv.[DECEA3]{cvar($Skill_meleeWpnKnucklesT1IronKnuckles_Lv:0)}[-])・Steel Knuckles (Lv.[DECEA3]{cvar($Skill_meleeWpnKnucklesT3SteelKnuckles_Lv:0)}[-])
+perkASKnucklesLvDesc,Action skill Plus,progressions,Action Skill Lv.
+perkASKnucklesLvDescLong,Action skill Plus,progressions,Entity damege, Stamina loss: [00FF00]UP[-]
+perkASKnucklesName,Action skill Plus,progressions,Knuckles
+perkASMachineGunsDesc,Action skill Plus,progressions,Compatible Item\n・Pipe MachineGun (Lv.[DECEA3]{cvar($Skill_gunMGT0PipeMachineGun_Lv:0)}[-])・AK47 (Lv.[DECEA3]{cvar($Skill_gunMGT1AK47_Lv:0)}[-])\n・Tactical AR (Lv.[DECEA3]{cvar($Skill_gunMGT2TacticalAR_Lv:0)}[-])・M60 (Lv.[DECEA3]{cvar($Skill_gunMGT3M60_Lv:0)}[-])
+perkASMachineGunsLvDesc,Action skill Plus,progressions,Action Skill Lv.
+perkASMachineGunsLvDescLong,Action skill Plus,progressions,Entity damege, Stamina loss and more: [00FF00]UP[-]
+perkASMachineGunsName,Action skill Plus,progressions,Machine Guns
+perkASRepairToolsDesc,Action skill Plus,progressions,Compatible Item\n・Stone Axe (Lv.[DECEA3]{cvar($Skill_meleeToolRepairT0StoneAxe_Lv:0)}[-])・Tazas Stone Axe (Lv.[DECEA3]{cvar($Skill_meleeToolRepairT0TazasStoneAxe_Lv:0)}[-])\n・Claw Hammer (Lv.[DECEA3]{cvar($Skill_meleeToolRepairT1ClawHammer_Lv:0)}[-])・Nailgun (Lv.[DECEA3]{cvar($Skill_meleeToolRepairT3Nailgun_Lv:0)}[-])
+perkASRepairToolsLvDesc,Action skill Plus,progressions,Action Skill Lv.
+perkASRepairToolsLvDescLong,Action skill Plus,progressions,Block damege, Harvest count, Stamina loss: [00FF00]UP[-]
+perkASRepairToolsName,Action skill Plus,progressions,Repair Tools
+perkASRiflesDesc,Action skill Plus,progressions,Compatible Item\n・Pipe Rifle (Lv.[DECEA3]{cvar($Skill_gunRifleT0PipeRifle_Lv:0)}[-])・Hunting Rifle (Lv.[DECEA3]{cvar($Skill_gunRifleT1HuntingRifle_Lv:0)}[-])\n・LeverAction Rifle (Lv.[DECEA3]{cvar($Skill_gunRifleT2LeverActionRifle_Lv:0)}[-])・Sniper Rifle (Lv.[DECEA3]{cvar($Skill_gunRifleT3SniperRifle_Lv:0)}[-])
+perkASRiflesLvDesc,Action skill Plus,progressions,Action Skill Lv.
+perkASRiflesLvDescLong,Action skill Plus,progressions,Entity damege, Stamina loss and more: [00FF00]UP[-]
+perkASRiflesName,Action skill Plus,progressions,Rifles
+perkASRoboticsDesc,Action skill Plus,progressions,Compatible Item\n・Pipe Baton (Lv.[DECEA3]{cvar($Skill_meleeWpnBatonT0PipeBaton_Lv:0)}[-])・Stun Baton (Lv.[DECEA3]{cvar($Skill_meleeWpnBatonT2StunBaton_Lv:0)}[-])・Junk Sledge (Lv.[DECEA3]{cvar($Skill_gunBotT1JunkSledge_Lv:0)}[-])\n・Junk Robotics (Lv.[DECEA3]{cvar($Skill_gunBotT2JunkRobotics_Lv:0)}[-])・Junk Drone (Lv.[DECEA3]{cvar($Skill_gunBotT3JunkDrone_Lv:0)}[-])
+perkASRoboticsLvDesc,Action skill Plus,progressions,Action Skill Lv.
+perkASRoboticsLvDescLong,Action skill Plus,progressions,Entity damege, Stamina loss and more: [00FF00]UP[-]
+perkASRoboticsName,Action skill Plus,progressions,Robotics
+perkASSalvageToolsDesc,Action skill Plus,progressions,Compatible Item\n・Wrench (Lv.[DECEA3]{cvar($Skill_meleeToolSalvageT1Wrench_Lv:0)}[-])・Ratchet (Lv.[DECEA3]{cvar($Skill_meleeToolSalvageT2Ratchet_Lv:0)}[-])\n・Impact Driver (Lv.[DECEA3]{cvar($Skill_meleeToolSalvageT3ImpactDriver_Lv:0)}[-])
+perkASSalvageToolsLvDesc,Action skill Plus,progressions,Action Skill Lv.
+perkASSalvageToolsLvDescLong,Action skill Plus,progressions,Block damege, Harvest count, Stamina loss: [00FF00]UP[-]
+perkASSalvageToolsName,Action skill Plus,progressions,Salvage Tools
+perkASShotgunsDesc,Action skill Plus,progressions,Compatible Item\n・Pipe Shotgun (Lv.[DECEA3]{cvar($Skill_gunShotgunT0PipeShotgun_Lv:0)}[-])・Double Barrel (Lv.[DECEA3]{cvar($Skill_gunShotgunT1DoubleBarrel_Lv:0)}[-])\n・Pump Shotgun (Lv.[DECEA3]{cvar($Skill_gunShotgunT2PumpShotgun_Lv:0)}[-])・Auto Shotgun (Lv.[DECEA3]{cvar($Skill_gunShotgunT3AutoShotgun_Lv:0)}[-])
+perkASShotgunsLvDesc,Action skill Plus,progressions,Action Skill Lv.
+perkASShotgunsLvDescLong,Action skill Plus,progressions,Entity damege, Stamina loss and more: [00FF00]UP[-]
+perkASShotgunsName,Action skill Plus,progressions,Shotguns
+perkASSledgehammersDesc,Action skill Plus,progressions,Compatible Item\n・Stone Sledgehammer (Lv.[DECEA3]{cvar($Skill_meleeWpnSledgeT0StoneSledgehammer_Lv:0)}[-])・Iron Sledgehammer (Lv.[DECEA3]{cvar($Skill_meleeWpnSledgeT1IronSledgehammer_Lv:0)}[-])\n・Steel Sledgehammer (Lv.[DECEA3]{cvar($Skill_meleeWpnSledgeT3SteelSledgehammer_Lv:0)}[-])
+perkASSledgehammersLvDesc,Action skill Plus,progressions,Action Skill Lv.
+perkASSledgehammersLvDescLong,Action skill Plus,progressions,Entity damege, Stamina loss: [00FF00]UP[-]
+perkASSledgehammersName,Action skill Plus,progressions,Sledgehammers
+perkASSpearsDesc,Action skill Plus,progressions,Compatible Item\n・Stone Spear (Lv.[DECEA3]{cvar($Skill_meleeWpnSpearT0StoneSpear_Lv:0)}[-])・Iron Spear (Lv.[DECEA3]{cvar($Skill_meleeWpnSpearT1IronSpear_Lv:0)}[-])\n・Steel Spea (Lv.[DECEA3]{cvar($Skill_meleeWpnSpearT3SteelSpear_Lv:0)}[-])
+perkASSpearsLvDesc,Action skill Plus,progressions,Action Skill Lv.
+perkASSpearsLvDescLong,Action skill Plus,progressions,Entity damege, Stamina loss: [00FF00]UP[-]
+perkASSpearsName,Action skill Plus,progressions,Spears
