@@ -55,7 +55,7 @@
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_HarvestingTools_DestroyedBlockPoint" operation="set" value="6"/>
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_HarvestingTools_RepairBlockPoint" operation="set" value="6"/>
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_HarvestingTools_UpgradedBlockPoint" operation="set" value="12"/>
-				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_HarvestingTools_AStrainingPoint" operation="set" value="10"/>
+				<!-- <triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_HarvestingTools_AStrainingPoint" operation="set" value="10"/> -->
 		
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_RepairTools_Mult" operation="set" value="1.5"/>
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_meleeToolRepairT1ClawHammer_Exp" operation="set" value="0"/>
@@ -74,7 +74,7 @@
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_RepairTools_DestroyedBlockPoint" operation="set" value="18"/>
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_RepairTools_RepairBlockPoint" operation="set" value="3"/>
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_RepairTools_UpgradedBlockPoint" operation="set" value="6"/>
-				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_RepairTools_AStrainingPoint" operation="set" value="10"/>
+				<!-- <triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_RepairTools_AStrainingPoint" operation="set" value="10"/> -->
 		
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_SalvageTools_Mult" operation="set" value="1.5"/>
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_meleeToolSalvageT1Wrench_Exp" operation="set" value="0"/>
@@ -94,7 +94,7 @@
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_SalvageTools_AttackedOtherPoint" operation="set" value="9"/>
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_SalvageTools_DamagedBlockPoint" operation="set" value="3"/>
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_SalvageTools_DestroyedBlockPoint" operation="set" value="6"/>
-				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_SalvageTools_AStrainingPoint" operation="set" value="10"/>
+				<!-- <triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_SalvageTools_AStrainingPoint" operation="set" value="10"/> -->
 			
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Knuckles_Mult" operation="set" value="1.5"/>
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_meleeHandPlayer_Exp" operation="set" value="0"/>
@@ -117,7 +117,7 @@
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Knuckles_AttackedOtherPoint" operation="set" value="9"/>
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Knuckles_DamagedBlockPoint" operation="set" value="3"/>
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Knuckles_DestroyedBlockPoint" operation="set" value="6"/>
-				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Knuckles_AStrainingPoint" operation="set" value="10"/>
+				<!-- <triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Knuckles_AStrainingPoint" operation="set" value="10"/> -->
 			
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Blades_Mult" operation="set" value="1.5"/>
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_meleeWpnBladeT0BoneKnife_Exp" operation="set" value="0"/>
@@ -140,7 +140,7 @@
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Blades_AttackedOtherPoint" operation="set" value="6"/>
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Blades_DamagedBlockPoint" operation="set" value="3"/>
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Blades_DestroyedBlockPoint" operation="set" value="6"/>
-				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Blades_AStrainingPoint" operation="set" value="10"/>
+				<!-- <triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Blades_AStrainingPoint" operation="set" value="10"/> -->
 			
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Clubs_Mult" operation="set" value="1.5"/>
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_meleeWpnClubT0WoodenClub_Exp" operation="set" value="0"/>
@@ -169,7 +169,7 @@
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Clubs_AttackedOtherPoint" operation="set" value="6"/>
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Clubs_DamagedBlockPoint" operation="set" value="3"/>
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Clubs_DestroyedBlockPoint" operation="set" value="6"/>
-				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Clubs_AStrainingPoint" operation="set" value="10"/>
+				<!-- <triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Clubs_AStrainingPoint" operation="set" value="10"/> -->
 			
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Sledgehammers_Mult" operation="set" value="1.5"/>
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_meleeWpnSledgeT0StoneSledgehammer_Exp" operation="set" value="0"/>
@@ -189,7 +189,7 @@
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Sledgehammers_AttackedOtherPoint" operation="set" value="6"/>
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Sledgehammers_DamagedBlockPoint" operation="set" value="3"/>
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Sledgehammers_DestroyedBlockPoint" operation="set" value="6"/>
-				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Sledgehammers_AStrainingPoint" operation="set" value="10"/>
+				<!-- <triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Sledgehammers_AStrainingPoint" operation="set" value="10"/> -->
 			
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Spears_Mult" operation="set" value="1.5"/>
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_meleeWpnSpearT0StoneSpear_Exp" operation="set" value="0"/>
@@ -209,7 +209,7 @@
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Spears_AttackedOtherPoint" operation="set" value="6"/>
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Spears_DamagedBlockPoint" operation="set" value="3"/>
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Spears_DestroyedBlockPoint" operation="set" value="6"/>
-				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Spears_AStrainingPoint" operation="set" value="10"/>
+				<!-- <triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Spears_AStrainingPoint" operation="set" value="10"/> -->
 			
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Handguns_Mult" operation="set" value="1.5"/>
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_gunHandgunT0PipePistol_Exp" operation="set" value="0"/>
@@ -235,7 +235,7 @@
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Handguns_AttackedOtherPoint" operation="set" value="6"/>
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Handguns_DamagedBlockPoint" operation="set" value="0"/>
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Handguns_DestroyedBlockPoint" operation="set" value="0"/>
-				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Handguns_AStrainingPoint" operation="set" value="10"/>
+				<!-- <triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Handguns_AStrainingPoint" operation="set" value="10"/> -->
 			
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Shotguns_Mult" operation="set" value="1.5"/>
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_gunShotgunT0PipeShotgun_Exp" operation="set" value="0"/>
@@ -256,9 +256,9 @@
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_CS_Shotguns_NextExp" operation="set" value="150"/>
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Shotguns_KilledOtherPoint" operation="set" value="12"/>
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Shotguns_AttackedOtherPoint" operation="set" value="6"/>
-				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Shotguns_DamagedBlockPoint" operation="set" value="0"/>
+				<!-- <triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Shotguns_DamagedBlockPoint" operation="set" value="0"/> -->
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Shotguns_DestroyedBlockPoint" operation="set" value="0"/>
-				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Shotguns_AStrainingPoint" operation="set" value="10"/>
+				<!-- <triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Shotguns_AStrainingPoint" operation="set" value="10"/> -->
 	
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Rifles_Mult" operation="set" value="1.5"/>
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_gunRifleT0PipeRifle_Exp" operation="set" value="0"/>
@@ -281,7 +281,7 @@
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Rifles_AttackedOtherPoint" operation="set" value="6"/>
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Rifles_DamagedBlockPoint" operation="set" value="0"/>
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Rifles_DestroyedBlockPoint" operation="set" value="0"/>
-				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Rifles_AStrainingPoint" operation="set" value="10"/>
+				<!-- <triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Rifles_AStrainingPoint" operation="set" value="10"/> -->
 	
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_MachineGuns_Mult" operation="set" value="1.5"/>
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_gunMGT0PipeMachineGun_Exp" operation="set" value="0"/>
@@ -302,9 +302,9 @@
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_CS_MachineGuns_NextExp" operation="set" value="150"/>
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_MachineGuns_KilledOtherPoint" operation="set" value="12"/>
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_MachineGuns_AttackedOtherPoint" operation="set" value="6"/>
-				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_MachineGuns_DamagedBlockPoint" operation="set" value="0"/>
+				<!-- <triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_MachineGuns_DamagedBlockPoint" operation="set" value="0"/> -->
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_MachineGuns_DestroyedBlockPoint" operation="set" value="0"/>
-				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_MachineGuns_AStrainingPoint" operation="set" value="10"/>
+				<!-- <triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_MachineGuns_AStrainingPoint" operation="set" value="10"/> -->
 
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Explosives_Mult" operation="set" value="1.5"/>
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_gunExplosivesT3RocketLauncher_Exp" operation="set" value="0"/>
@@ -318,7 +318,7 @@
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Explosives_AttackedOtherPoint" operation="set" value="6"/>
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Explosives_DamagedBlockPoint" operation="set" value="0"/>
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Explosives_DestroyedBlockPoint" operation="set" value="0"/>
-				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Explosives_AStrainingPoint" operation="set" value="10"/>
+				<!-- <triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Explosives_AStrainingPoint" operation="set" value="10"/> -->
 				
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Bows_Mult" operation="set" value="1.5"/>
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_gunBowT0PrimitiveBow_Exp" operation="set" value="0"/>
@@ -344,7 +344,7 @@
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Bows_AttackedOtherPoint" operation="set" value="6"/>
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Bows_DamagedBlockPoint" operation="set" value="0"/>
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Bows_DestroyedBlockPoint" operation="set" value="0"/>
-				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Bows_AStrainingPoint" operation="set" value="10"/>
+				<!-- <triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Bows_AStrainingPoint" operation="set" value="10"/> -->
 
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Robotics_Mult" operation="set" value="1.5"/>
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_meleeWpnBatonT0PipeBaton_Exp" operation="set" value="0"/>
@@ -373,7 +373,7 @@
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Robotics_AttackedOtherPoint" operation="set" value="6"/>
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Robotics_DamagedBlockPoint" operation="set" value="0"/>
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Robotics_DestroyedBlockPoint" operation="set" value="0"/>
-				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Robotics_AStrainingPoint" operation="set" value="10"/>
+				<!-- <triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Robotics_AStrainingPoint" operation="set" value="10"/> -->
 			</effect_group>
 			<!-- meleeToolRepairT0StoneAxe -->
 			<effect_group name="meleeToolRepairT0StoneAxe">
