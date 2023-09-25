@@ -19,4 +19,6 @@
 			<label depth="2" name="elevLabel" pos="48,-60" width="100" height="18" text="{cvar($Equip_Item_Skill_Next:0)}" font_size="18" color="[white]" justify="right"/>
 		</rect>
 	</append>
+	<set xpath="/windows/window[@name='windowSkillList']/panel[@name='content']/rect[@name='categoryHeader']/panel[@pos='3,-3']/grid[@name='categories']/@cols">9</set>
+	<set xpath="/windows/window[@name='windowSkillList']/panel[@name='content']/rect[@name='categoryHeader']/panel[@pos='3,-3']/grid[@name='categories']/@cell_width">40</set>
 </config>

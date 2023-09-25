@@ -255,7 +255,7 @@
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_CS_Shotguns_Exp" operation="set" value="0"/>
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_CS_Shotguns_NextExp" operation="set" value="150"/>
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Shotguns_KilledOtherPoint" operation="set" value="12"/>
-				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Shotguns_AttackedOtherPoint" operation="set" value="6"/>
+				<!-- <triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Shotguns_AttackedOtherPoint" operation="set" value="6"/> -->
 				<!-- <triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Shotguns_DamagedBlockPoint" operation="set" value="0"/> -->
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Shotguns_DestroyedBlockPoint" operation="set" value="0"/>
 				<!-- <triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_Shotguns_AStrainingPoint" operation="set" value="10"/> -->
@@ -301,7 +301,7 @@
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_CS_MachineGuns_Exp" operation="set" value="0"/>
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_CS_MachineGuns_NextExp" operation="set" value="150"/>
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_MachineGuns_KilledOtherPoint" operation="set" value="12"/>
-				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_MachineGuns_AttackedOtherPoint" operation="set" value="6"/>
+				<!-- <triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_MachineGuns_AttackedOtherPoint" operation="set" value="6"/> -->
 				<!-- <triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_MachineGuns_DamagedBlockPoint" operation="set" value="0"/> -->
 				<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_MachineGuns_DestroyedBlockPoint" operation="set" value="0"/>
 				<!-- <triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$Skill_MachineGuns_AStrainingPoint" operation="set" value="10"/> -->
