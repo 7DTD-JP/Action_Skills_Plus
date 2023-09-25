@@ -6,12 +6,11 @@
 * Crafting level is also increased based on item usage. so if you used Hunting knife, you could get all Item level, Action skill level and crafting skill level. 
 
 ### Updates
-v1.0.2: Remove some of Robstics items(Turrets, Drones) from the list. [Download](https://github.com/7DTD-JP/Action_Skills_Plus/releases/download/v1.0.2/Action.Skills.Plus.zip)
-v1.0.1: Changes few things to remove unnecessary items. [Download](https://github.com/7DTD-JP/Action_Skills_Plus/releases/download/v1.0.1/Action.Skills.Plus.zip)
+* v1.0.2: Remove some of Robstics items(Turrets, Drones) from the list. [Download](https://github.com/7DTD-JP/Action_Skills_Plus/releases/download/v1.0.2/Action.Skills.Plus.zip)
+* v1.0.1: Changes few things to remove unnecessary items. [Download](https://github.com/7DTD-JP/Action_Skills_Plus/releases/download/v1.0.1/Action.Skills.Plus.zip)
 
 ## Mod compatibility
-This mod is a server-side mod and it was created to be compatible with vanilla as well as other mods. However, the mod may affect your server if you have made any changes regarding the followings.<br>
-* Added perks (progressions.xml)
+This mod is a server-side mod and it was created to be compatible with vanilla as well as other mods. However, please feel free give us your feedback if it did not work.
 
 ## MOD install
 Copy the "Action Skills Plus" folder under the Mods folder. <br>
