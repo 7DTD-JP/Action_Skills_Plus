@@ -852,10 +852,10 @@
 			<effect_group name="AS_Knuckles">
 				<requirement name="HoldingItemHasTags" tags="Knuckles"/>
 				<requirement name="CVarCompare" cvar="$Skill_AS_Knuckles_Exp" operation="GTE" value="@$Skill_AS_Knuckles_NextExp"/>
-				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" buff="buffCSKnuckles_LvUp"/>
-				<triggered_effect trigger="onSelfKilledOther" action="AddBuff" buff="buffCSKnuckles_LvUp"/>
-				<triggered_effect trigger="onSelfDamagedBlock" action="AddBuff" buff="buffCSKnuckles_LvUp"/>
-				<triggered_effect trigger="onSelfDestroyedBlock" action="AddBuff" buff="buffCSKnuckles_LvUp"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" buff="buffASKnuckles_LvUp"/>
+				<triggered_effect trigger="onSelfKilledOther" action="AddBuff" buff="buffASKnuckles_LvUp"/>
+				<triggered_effect trigger="onSelfDamagedBlock" action="AddBuff" buff="buffASKnuckles_LvUp"/>
+				<triggered_effect trigger="onSelfDestroyedBlock" action="AddBuff" buff="buffASKnuckles_LvUp"/>
 			</effect_group>
 			<effect_group name="CS_Knuckles">
 				<requirement name="HoldingItemHasTags" tags="Knuckles"/>
@@ -1252,10 +1252,10 @@
 			<effect_group name="AS_Spears">
 				<requirement name="HoldingItemHasTags" tags="Spears"/>
 				<requirement name="CVarCompare" cvar="$Skill_AS_Spears_Exp" operation="GTE" value="@$Skill_AS_Spears_NextExp"/>
-				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" buff="buffCSSpears_LvUp"/>
-				<triggered_effect trigger="onSelfKilledOther" action="AddBuff" buff="buffCSSpears_LvUp"/>
-				<triggered_effect trigger="onSelfDamagedBlock" action="AddBuff" buff="buffCSSpears_LvUp"/>
-				<triggered_effect trigger="onSelfDestroyedBlock" action="AddBuff" buff="buffCSSpears_LvUp"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" buff="buffASSpears_LvUp"/>
+				<triggered_effect trigger="onSelfKilledOther" action="AddBuff" buff="buffASSpears_LvUp"/>
+				<triggered_effect trigger="onSelfDamagedBlock" action="AddBuff" buff="buffASSpears_LvUp"/>
+				<triggered_effect trigger="onSelfDestroyedBlock" action="AddBuff" buff="buffASSpears_LvUp"/>
 			</effect_group>
 			<effect_group name="CS_Spears">
 				<requirement name="HoldingItemHasTags" tags="Spears"/>
@@ -1369,10 +1369,10 @@
 			<effect_group name="AS_Handguns">
 				<requirement name="HoldingItemHasTags" tags="Handguns"/>
 				<requirement name="CVarCompare" cvar="$Skill_AS_Handguns_Exp" operation="GTE" value="@$Skill_AS_Handguns_NextExp"/>
-				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" buff="buffCSHandguns_LvUp"/>
-				<triggered_effect trigger="onSelfKilledOther" action="AddBuff" buff="buffCSHandguns_LvUp"/>
-				<triggered_effect trigger="onSelfDamagedBlock" action="AddBuff" buff="buffCSHandguns_LvUp"/>
-				<triggered_effect trigger="onSelfDestroyedBlock" action="AddBuff" buff="buffCSHandguns_LvUp"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" buff="buffASHandguns_LvUp"/>
+				<triggered_effect trigger="onSelfKilledOther" action="AddBuff" buff="buffASHandguns_LvUp"/>
+				<triggered_effect trigger="onSelfDamagedBlock" action="AddBuff" buff="buffASHandguns_LvUp"/>
+				<triggered_effect trigger="onSelfDestroyedBlock" action="AddBuff" buff="buffASHandguns_LvUp"/>
 			</effect_group>
 			<effect_group name="CS_Handguns">
 				<requirement name="HoldingItemHasTags" tags="Handguns"/>
@@ -1469,10 +1469,10 @@
 			<effect_group name="AS_Shotguns">
 				<requirement name="HoldingItemHasTags" tags="Shotguns"/>
 				<requirement name="CVarCompare" cvar="$Skill_AS_Shotguns_Exp" operation="GTE" value="@$Skill_AS_Shotguns_NextExp"/>
-				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" buff="buffCSShotguns_LvUp"/>
-				<triggered_effect trigger="onSelfKilledOther" action="AddBuff" buff="buffCSShotguns_LvUp"/>
-				<triggered_effect trigger="onSelfDamagedBlock" action="AddBuff" buff="buffCSShotguns_LvUp"/>
-				<triggered_effect trigger="onSelfDestroyedBlock" action="AddBuff" buff="buffCSShotguns_LvUp"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" buff="buffASShotguns_LvUp"/>
+				<triggered_effect trigger="onSelfKilledOther" action="AddBuff" buff="buffASShotguns_LvUp"/>
+				<triggered_effect trigger="onSelfDamagedBlock" action="AddBuff" buff="buffASShotguns_LvUp"/>
+				<triggered_effect trigger="onSelfDestroyedBlock" action="AddBuff" buff="buffASShotguns_LvUp"/>
 			</effect_group>
 			<effect_group name="CS_Shotguns">
 				<requirement name="HoldingItemHasTags" tags="Shotguns"/>
@@ -1569,10 +1569,10 @@
 			<effect_group name="AS_Rifles">
 				<requirement name="HoldingItemHasTags" tags="Rifles"/>
 				<requirement name="CVarCompare" cvar="$Skill_AS_Rifles_Exp" operation="GTE" value="@$Skill_AS_Rifles_NextExp"/>
-				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" buff="buffCSRifles_LvUp"/>
-				<triggered_effect trigger="onSelfKilledOther" action="AddBuff" buff="buffCSRifles_LvUp"/>
-				<triggered_effect trigger="onSelfDamagedBlock" action="AddBuff" buff="buffCSRifles_LvUp"/>
-				<triggered_effect trigger="onSelfDestroyedBlock" action="AddBuff" buff="buffCSRifles_LvUp"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" buff="buffASRifles_LvUp"/>
+				<triggered_effect trigger="onSelfKilledOther" action="AddBuff" buff="buffASRifles_LvUp"/>
+				<triggered_effect trigger="onSelfDamagedBlock" action="AddBuff" buff="buffASRifles_LvUp"/>
+				<triggered_effect trigger="onSelfDestroyedBlock" action="AddBuff" buff="buffASRifles_LvUp"/>
 			</effect_group>
 			<effect_group name="CS_Rifles">
 				<requirement name="HoldingItemHasTags" tags="Rifles"/>
@@ -1669,10 +1669,10 @@
 			<effect_group name="AS_MachineGuns">
 				<requirement name="HoldingItemHasTags" tags="MachineGuns"/>
 				<requirement name="CVarCompare" cvar="$Skill_AS_MachineGuns_Exp" operation="GTE" value="@$Skill_AS_MachineGuns_NextExp"/>
-				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" buff="buffCSMachineGuns_LvUp"/>
-				<triggered_effect trigger="onSelfKilledOther" action="AddBuff" buff="buffCSMachineGuns_LvUp"/>
-				<triggered_effect trigger="onSelfDamagedBlock" action="AddBuff" buff="buffCSMachineGuns_LvUp"/>
-				<triggered_effect trigger="onSelfDestroyedBlock" action="AddBuff" buff="buffCSMachineGuns_LvUp"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" buff="buffASMachineGuns_LvUp"/>
+				<triggered_effect trigger="onSelfKilledOther" action="AddBuff" buff="buffASMachineGuns_LvUp"/>
+				<triggered_effect trigger="onSelfDamagedBlock" action="AddBuff" buff="buffASMachineGuns_LvUp"/>
+				<triggered_effect trigger="onSelfDestroyedBlock" action="AddBuff" buff="buffASMachineGuns_LvUp"/>
 			</effect_group>
 			<effect_group name="CS_MachineGuns">
 				<requirement name="HoldingItemHasTags" tags="MachineGuns"/>
@@ -1718,10 +1718,10 @@
 			<effect_group name="AS_Explosives">
 				<requirement name="HoldingItemHasTags" tags="Explosives"/>
 				<requirement name="CVarCompare" cvar="$Skill_AS_Explosives_Exp" operation="GTE" value="@$Skill_AS_Explosives_NextExp"/>
-				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" buff="buffCSExplosives_LvUp"/>
-				<triggered_effect trigger="onSelfKilledOther" action="AddBuff" buff="buffCSExplosives_LvUp"/>
-				<triggered_effect trigger="onSelfDamagedBlock" action="AddBuff" buff="buffCSExplosives_LvUp"/>
-				<triggered_effect trigger="onSelfDestroyedBlock" action="AddBuff" buff="buffCSExplosives_LvUp"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" buff="buffASExplosives_LvUp"/>
+				<triggered_effect trigger="onSelfKilledOther" action="AddBuff" buff="buffASExplosives_LvUp"/>
+				<triggered_effect trigger="onSelfDamagedBlock" action="AddBuff" buff="buffASExplosives_LvUp"/>
+				<triggered_effect trigger="onSelfDestroyedBlock" action="AddBuff" buff="buffASExplosives_LvUp"/>
 			</effect_group>
 			<effect_group name="CS_Explosives">
 				<requirement name="HoldingItemHasTags" tags="Explosives"/>
@@ -1835,10 +1835,10 @@
 			<effect_group name="AS_Bows">
 				<requirement name="HoldingItemHasTags" tags="Bows"/>
 				<requirement name="CVarCompare" cvar="$Skill_AS_Bows_Exp" operation="GTE" value="@$Skill_AS_Bows_NextExp"/>
-				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" buff="buffCSBows_LvUp"/>
-				<triggered_effect trigger="onSelfKilledOther" action="AddBuff" buff="buffCSBows_LvUp"/>
-				<triggered_effect trigger="onSelfDamagedBlock" action="AddBuff" buff="buffCSBows_LvUp"/>
-				<triggered_effect trigger="onSelfDestroyedBlock" action="AddBuff" buff="buffCSBows_LvUp"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" buff="buffASBows_LvUp"/>
+				<triggered_effect trigger="onSelfKilledOther" action="AddBuff" buff="buffASBows_LvUp"/>
+				<triggered_effect trigger="onSelfDamagedBlock" action="AddBuff" buff="buffASBows_LvUp"/>
+				<triggered_effect trigger="onSelfDestroyedBlock" action="AddBuff" buff="buffASBows_LvUp"/>
 			</effect_group>
 			<effect_group name="CS_Bows">
 				<requirement name="HoldingItemHasTags" tags="Bows"/>
@@ -1969,10 +1969,10 @@
 			<effect_group name="AS_Robotics">
 				<requirement name="HoldingItemHasTags" tags="Robotics"/>
 				<requirement name="CVarCompare" cvar="$Skill_AS_Robotics_Exp" operation="GTE" value="@$Skill_AS_Robotics_NextExp"/>
-				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" buff="buffCSRobotics_LvUp"/>
-				<triggered_effect trigger="onSelfKilledOther" action="AddBuff" buff="buffCSRobotics_LvUp"/>
-				<triggered_effect trigger="onSelfDamagedBlock" action="AddBuff" buff="buffCSRobotics_LvUp"/>
-				<triggered_effect trigger="onSelfDestroyedBlock" action="AddBuff" buff="buffCSRobotics_LvUp"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" buff="buffASRobotics_LvUp"/>
+				<triggered_effect trigger="onSelfKilledOther" action="AddBuff" buff="buffASRobotics_LvUp"/>
+				<triggered_effect trigger="onSelfDamagedBlock" action="AddBuff" buff="buffASRobotics_LvUp"/>
+				<triggered_effect trigger="onSelfDestroyedBlock" action="AddBuff" buff="buffASRobotics_LvUp"/>
 			</effect_group>
 			<effect_group name="CS_Robotics">
 				<requirement name="HoldingItemHasTags" tags="Robotics"/>
