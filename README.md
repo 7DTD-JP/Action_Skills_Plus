@@ -6,8 +6,9 @@
 * Crafting level is also increased based on item usage. so if you used Hunting knife, you could get all Item level, Action skill level and crafting skill level. 
 
 ### Updates
-* v1.0.2: Remove some of Robstics items(Turrets, Drones) from the list. [Download](https://github.com/7DTD-JP/Action_Skills_Plus/releases/download/v1.0.2/Action.Skills.Plus.zip)
-* v1.0.1: Changes few things to remove unnecessary items. [Download](https://github.com/7DTD-JP/Action_Skills_Plus/releases/download/v1.0.1/Action.Skills.Plus.zip)
+* v1.0.3: Fixed bugs [Download](https://github.com/7DTD-JP/Action_Skills_Plus/releases/download/v1.0.3/Action.Skills.Plus.zip)
+* v1.0.2: Remove some of Robstics items(Turrets, Drones) from the list. 
+* v1.0.1: Changes few things to remove unnecessary items.
 
 ## Mod compatibility
 This mod is a server-side mod and it was created to be compatible with vanilla as well as other mods. However, please feel free give us your feedback if it did not work.
@@ -25,7 +26,6 @@ Discord: [Link](https://discord.gg/Va9CMv59Ej)<br>
 
 ## Links
 * Git Hub: [Action_Skills_Plus](https://github.com/7DTD-JP/Action_Skills_Plus)
-* Forum: [Action_Skills_Plus](https://community.7daystodie.com/topic/34017-action-skills-plus/)
 
 ## Credits
 7DaystoDie.JP, Ritoni
